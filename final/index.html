@@ -29,6 +29,7 @@
       href="./assets/css/judges_speakers_glitch-text.css"
     />
     <link rel="stylesheet" href="./assets/css/judges_speakers.css" />
+    <link rel="stylesheet" href="./assets/css/benefits.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
@@ -111,6 +112,61 @@
         }
       </script>
     </section>
+
+      <!--             Benifites Of HackOwasp                         -->
+    <div id="benefits">
+      <!-- Headings     -->
+      <div id="heading">
+        <svg class="intro" viewbox="0 0 200 86">
+          <text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Benefits Of</text>
+          <text text-anchor="start" x="10" y="50" class="text text-stroke" clip-path="url(#text2)">HackOwasp</text>
+          <!-- <text text-anchor="start" x="10" y="70" class="text text-stroke" clip-path="url(#text3)">Begin.</text> -->
+          <text text-anchor="start" x="10" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Benefits Of</text>
+          <text text-anchor="start" x="10" y="50" class="text text-stroke text-stroke-2" clip-path="url(#text2)">HackOwasp</text>
+          <!-- <text text-anchor="start" x="10" y="70" class="text text-stroke text-stroke-2" clip-path="url(#text3)">Begin.</text> -->
+          <defs>
+            <clipPath id="text1">
+              <text text-anchor="start" x="10" y="30" class="text">Benefits Of</text>
+            </clipPath>
+            <clipPath id="text2">
+              <text text-anchor="start" x="10" y="50" class="text">HackOwasp</text>
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- Grid -->
+      <div id="content">
+        <div id="card">
+          <div class="image">
+            <img src="assets/images/benefits-1.svg" alt="image1" />
+          </div>
+          <div class="con">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto perspiciatis, vitae maiores quis incidunt non eaque velit 
+            veniam </p>
+          </div>
+        </div>
+        <div id="card">
+          <div class="image">
+            <img src="assets/images/benefits-1.svg" alt="image1" />
+          </div>
+          <div class="con">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto perspiciatis, vitae maiores quis incidunt non eaque velit 
+            veniam </p>
+          </div>
+        </div>
+        <div id="card">
+          <div class="image">
+            <img src="assets/images/benefits-1.svg" alt="image1" />
+          </div>
+          <div class="con">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto perspiciatis, vitae maiores quis incidunt non eaque velit 
+            veniam </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
     <section id="judges_speakers">
       <div class="container-fluid">
         <div class="row">
@@ -932,6 +988,19 @@
         </div>
       </div>
       <div class="container-fluid footer">Made with &hearts; by OWASP</div>
+      <script>
+        $(function() {
+  $('.intro').addClass('go');
+
+  $('.reload').click(function() {
+    $('.intro').removeClass('go').delay(200).queue(function(next) {
+      $('.intro').addClass('go');
+      next();
+    });
+
+  });
+})
+      </script>
 
       <script>
         var textWrapper = document.querySelector(".ml9 .letters");
