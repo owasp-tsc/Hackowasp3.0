@@ -56,50 +56,68 @@
   </head>
   <body>
     <section id="mainframe_navbar">
-      <div>
-        <video autoplay loop muted id="videoBG">
+      <div class="mainframe">
+        <!-- <video autoplay loop muted id="videoBG">
           <source src="./assets/video/bgvideo1.mp4" type="video/mp4" />
-        </video>
+        </video> -->
+        <img class="hackowasplogo" src="./assets/images/hackowasp logo-12.png" >
+        <h1 class="ml10">
+          <span class="text-wrapper">
+            <span class="letters">Where the innovation thinks Fintechnically!</span>
+          </span>
+        </h1>
+        <script src="assets/js/mainframe.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <div class="row justify-content-center">
+          <button class="buttonhome register mb-sm-0 mb-3">
+            Register with Devfolio
+          </button>
+          <button class="buttonhome">
+            27-28th March
+          </button>
+        </div>
+        
       </div>
-      <nav class="navbar navbar-expand-md navbar-custom fixed-top shadow">
+      <div class="outer">
+        <div class="polygon">
+        </div>
+        <div class="why_us">
+          
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-expand-lg navbar-custom fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
-            ><img src="./assets/logo/logo.jpg" height="70px"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-          >
+            ><img src="./assets/images/owasp_logo.png" height="50px"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <div class="icon" onclick="myAnimation(this)">
               <div class="bar1"></div>
               <div class="bar2"></div>
               <div class="bar3"></div>
             </div>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#">HackOwasp 3.0</a>
-                <div class="dropdown-content">
-                  <a class="nesta" href="#">About</a>
-                  <a class="nesta" href="#">Timeline</a>
-                  <a class="nesta" href="#">Our Team</a>
-                </div>
+                <a class="nav-link" href="#">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Problem Statements</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#">Prizes</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Judges And Speakers</a>
+                <a class="nav-link" href="#">TIMELINE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sponsors</a>
+                <a class="nav-link" href="#">PROBLEM STATEMENT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Previous Events</a>
+                <a class="nav-link" href="#">PRIZES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">JUDGES AND SPEAKERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SPONSORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PAST EVENTS</a>
               </li>
             </ul>
           </div>
