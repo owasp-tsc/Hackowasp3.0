@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 body {
-  font-family: Poppins Black;
+  font-family: Poppins Black Sacramento;
 }
 
 nav {
-  background-image: linear-gradient(rgb(0, 255, 255), rgba(255, 255, 255, 0.1));
+  background-color: black;
   position: fixed;
+  z-index: 10000;
 }
 
 @font-face {
@@ -17,11 +20,12 @@ nav {
   cursor: pointer;
   padding: 25px;
 }
+
 .bar1,
 .bar2,
 .bar3 {
-  width: 35px;
-  height: 5px;
+  width: 25px;
+  height: 3px;
   background-color: #333;
   margin: 6px 0;
   transition: 0.4s;
@@ -41,51 +45,41 @@ nav {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-video {
-  /* position: fixed; */
-  z-index: -1;
-  height: 100vh;
-}
-
-@media (min-aspect-ratio: 16/9) {
-  #videoBG {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  #videoBG {
-    width: auto;
-    height: 100%;
-  }
-}
-
 .nav-link {
-  color: black;
+  color: white;
 }
 
 .nav-item {
-  color: black;
+  color: white;
   text-align: center;
   padding: 10px;
 }
 
-.nav-item:hover {
+.nav-item:hover,.nav-link:hover {
   color: white;
   text-align: center;
+  text-decoration: underline;
 }
 
 .shadow {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
-/* ########!!!!!!!! */
-.navbar a:hover,
-.dropdown:hover {
-  background-color: red;
+/* .navbar-toggler {
+  background-color: white;
 }
 
-.dropdown-content {
+.navbar-toggler-icon {
+  background-color: black;
+} */
+
+/* ########!!!!!!!! */
+/* .navbar a:hover,
+.dropdown:hover {
+  background-color: red;
+} */
+
+/* .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -112,4 +106,92 @@ video {
 
 .dropdown:hover .dropdown-content {
   display: block;
+} */
+
+.navbar-brand {
+  margin-right: 22%;
+}
+
+.outer {
+  background-color: white;
+}
+
+.mainframe {
+  /* background-color: black; */
+  background-image: url(../images/background.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 130px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+  border: none;
+}
+
+.hackowasplogo {
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+.ml10 {
+  position: relative;
+  font-size: 3em;
+  color: white;
+  font-family: Sacramento;
+}
+
+@media only screen and (max-width: 576px)
+{
+  .ml10 {
+    font-size: 1.8em;
+  }
+
+  .hackowasplogo {
+    width: 90%;
+  }
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+
+.buttonhome {
+  width: 304px;
+  height: 45px;
+  background: #EFCA9E;
+  border-radius: 27px;
+  justify-self: center;
+  border: none;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+/* .register {
+  margin-right: 20px;
+} */
+
+.polygon {
+  background-color: black;
+  color: white;
+  height: 100px;
+  border: none;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.why_us {
+  background-color: white;
+  height: 60px;
 }
