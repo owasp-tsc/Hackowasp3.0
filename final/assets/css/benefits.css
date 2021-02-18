@@ -85,6 +85,7 @@ svg.intro {
   #card{
       height: 25em;
       /* border: 1px solid black; */
+      text-align: center;
       margin: 0 4em;
       flex-basis: 33%;
       align-content: center;
@@ -92,10 +93,10 @@ svg.intro {
       flex-direction: column;
   }
   #card .image{
-    margin: 0 4em 0;
+    margin: 0 0;
   }
   #card .image img{
-      height :15em;
+      height :22em;
   }
   #card .con{
     font-family: 'Roboto', sans-serif;

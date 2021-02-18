@@ -6,7 +6,7 @@
 }
 .left {
   background: pink;
-  background-image: url("./images/mainframe.gif");
+  background-image: url("../images/mainframe.gif");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 
 .right2 {
   background: whitesmoke;
-  background-image: url("./images/mainframe.gif");
+  background-image: url("../images/mainframe.gif");
   margin-bottom: 20px;
   background-size: cover;
   background-attachment: fixed;
@@ -122,7 +122,7 @@
 /* RIGHT BLOCK 2 */
 
 .right3 {
-  background-image: url("./images/mainframe.gif");
+  background-image: url("../images/mainframe.gif");
   margin-top: 20px;
   background-size: cover;
   background-attachment: fixed;
