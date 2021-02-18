@@ -6,12 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 #benefits{
-    height: 45em;
+    height: auto;
+    padding-bottom: 100px;
     background: #ffffff;
 }
 
 #heading{
-    height: 15em;
+    height: 9em;
     font-family: "The Bold Font";
     padding: 0;
     margin: 0;
@@ -83,20 +84,21 @@ svg.intro {
       align-content: center;
   }
   #card{
-      height: 25em;
-      /* border: 1px solid black; */
+      height: auto;
+      border: 1px solid black;
       text-align: center;
       margin: 0 4em;
       flex-basis: 33%;
       align-content: center;
       display: flex;
       flex-direction: column;
+      padding-bottom: 20px;
   }
   #card .image{
     margin: 0 0;
   }
   #card .image img{
-      height :22em;
+      height :20em;
   }
   #card .con{
     font-family: 'Roboto', sans-serif;
