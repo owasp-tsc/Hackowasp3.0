@@ -1,0 +1,19 @@
+.abthck{
+    color: black!important;
+  }
+  #abthack{
+      padding: 2rem;
+  }
+  #abthack .row{
+    background-color: white;
+    padding: 1rem;
+    margin: 0;
+  }
+  #abthack .row .col-sm iframe{
+      margin-left: 5rem;
+       
+  }
+  #abthack .row .col p{
+    margin-right: 5rem;
+     
+}

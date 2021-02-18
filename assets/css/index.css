@@ -1,0 +1,19 @@
+body {
+  /* position: fixed !important; */
+
+  /* overflow: hidden; */
+}
+
+.scroll_container {
+  /* width: 100%;
+  height: 100%; */
+  /* padding: 0;
+  margin: 0; */
+  /* scroll-behavior: smooth;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; */
+}
+
+.scroll_container section {
+  scroll-snap-align: center;
+}

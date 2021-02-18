@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* ANIMATION */
+#timeline polyline:nth-child(1) {
+  stroke-dasharray: 49;
+  stroke-dashoffset: 493;
+  animation: timeline-anim 2s ease forwards;
+}
+#timeline polyline:nth-child(2) {
+  stroke-dasharray: 49;
+  stroke-dashoffset: 499;
+  animation: timeline-anim 2s ease forwards;
+}
+#timeline polyline:nth-child(3) {
+  stroke-dasharray: 59;
+  stroke-dashoffset: 590;
+  animation: timeline-anim 2s ease forwards;
+}
+#timeline polyline:nth-child(4) {
+  stroke-dasharray: 67;
+  stroke-dashoffset: 617;
+  animation: timeline-anim 2s ease forwards;
+}
+
+@keyframes timeline-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.cls-1 {
+  fill: #fff;
+  stroke: #231f20;
+  stroke-miterlimit: 10;
+}
+
+/* ANIMATION */
+
+#timeline {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #1f2833;
+  /* background: #1f2833; */
+  font-weight: 300;
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+.hey {
+  height: 100vh;
+}
+#headline {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+#headline h1 {
+  font-size: 2em;
+}
+#headline h1 span {
+  font-size: 2em;
+  font-weight: 800;
+}
+@media screen and (max-width: 600px) {
+  #headline h1 span {
+    font-size: 2em;
+  }
+}
+
+#timeline_container {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  border-radius: 0 0.15rem 0.15rem 0;
+}
+
+.important {
+  color: #fcba03;
+}
+
+.event {
+  display: flex;
+  position: relative;
+  margin: 0 20%;
+  overflow-x: overflow;
+}
+.event:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-1rem, -50%);
+  border-top: 1rem solid #1f2833;
+  border-bottom: 1rem solid #1f2833;
+  width: 2rem;
+  height: 2rem;
+  background-color: #1f2833;
+  background-image: url("../images/transaction.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  opacity: 0;
+  transition: all 5s ease-in 0s;
+  transition-delay: 5s;
+}
+.event:nth-child(odd)::before {
+  margin-left: 10px;
+}
+.event:after {
+  content: attr(data-time);
+  position: absolute;
+  top: 50%;
+  left: -3rem;
+  transform: translate(-100%, -50%);
+  line-height: 1em;
+  font-size: 1.3rem;
+  max-width: 20%;
+  text-align: right;
+}
+.event.icon1:before {
+  background-image: url("/assets/images/transaction.png");
+}
+.event.icon2:before {
+  background-image: url("../images/online-banking.png");
+}
+.event.icon3:before {
+  background-image: url("../images/fintech.png");
+}
+.event.icon4:before {
+  background-image: url("../images/saas.png");
+}
+.event__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 2rem;
+  position: relative;
+  border-top: 2px dashed #66fcf1;
+  border-left: 2px dashed #66fcf1;
+}
+.event__content {
+  padding: 2rem 0;
+}
+.event:nth-child(even) .event__content {
+  transform: translateX(-300%);
+  transition: all 0.3s ease-out;
+}
+.event:nth-child(even) .event__content[data-scroll="in"] {
+  transform: translateX(0);
+}
+.event:nth-child(odd) .event__content {
+  transform: translateX(300%);
+  transition: all 0.3s ease-out;
+}
+.event:nth-child(odd) .event__content[data-scroll="in"] {
+  transform: translateX(0);
+}
+.event__headline {
+  font-size: 1.3em;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+.event__text h3 {
+  color: #7d97b8;
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+.event__text p {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+.event__text p:last-of-type {
+  margin: 0;
+}
+.event:nth-child(even):before {
+  left: auto;
+  right: 0;
+  transform: translate(1rem, -50%);
+}
+.event:nth-child(even):after {
+  left: auto;
+  right: -2rem;
+  transform: translate(100%, -50%);
+  text-align: left;
+}
+.event:nth-child(even) .event__wrapper {
+  border-left: none;
+  border-right: 2px dashed #66fcf1;
+  text-align: right;
+}
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #31b1d8;
+  border-radius: 50%;
+  visibility: hidden;
+}
+.arrows {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+  opacity: 1;
+  transition: all 10s ease;
+}
+.scroll-arrow {
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  border-right: 2px solid #66fcf1;
+  border-bottom: 2px solid #66fcf1;
+  animation: arrow-wave 1s infinite;
+  animation-direction: alternate;
+}
+#timeline_container > :nth-child(odd)[data-scroll="in"]:before {
+  opacity: 1;
+  z-index: 999;
+}
+#timeline_container > :nth-child(even)[data-scroll="in"]:before {
+  opacity: 1;
+  z-index: 999;
+}
+.scroll-arrow:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.scroll-arrow:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.scroll-arrow:nth-child(3) {
+  animation-delay: 0.3s;
+}
+#timeline_container > :nth-child(1) .arrows {
+  right: -7px;
+  top: 45px;
+}
+#timeline_container > :nth-child(2) .arrows {
+  right: -533px;
+  top: 85px;
+}
+#timeline_container > :nth-child(3) .arrows {
+  right: -7px;
+  top: 135px;
+}
+#timeline_container > :nth-child(4) .arrows {
+  right: -533px;
+  top: 110px;
+}
+#timeline_container > :nth-child(5) .arrows {
+  right: -8px;
+  top: 55px;
+}
+@keyframes arrow-wave {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
