@@ -1,0 +1,97 @@
+@font-face
+{
+  font-family: "Poppins";
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face
+{
+  font-family: "AstroSpace";
+    src: url('../fonts/AstroSpace.ttf');
+}
+.owasp_about {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: white !important;
+    padding: 80px 40px 90px 40px;
+  }
+.aboutimg{
+    margin: 0px 5px  5px 5px;
+    height: 100%;
+    width: 80%;
+}
+.aboutheading {
+    margin-top: -2.8%;
+    color: #E4A961;
+    font-family: "AstroSpace";
+    letter-spacing: 6px;
+}
+.aboutpara {
+        color: black;
+      }
+.aboutbutton {
+        padding: 10px 50px;
+        border-radius: 30px;
+        text-align: center;
+        border: 2px solid silver;
+        background-color: transparent;
+        position: relative;
+        top: 5%;
+        color: black;
+        font-family: "Poppins";
+        transition: background-color 0.5s;
+      }
+.aboutbutton:hover {
+        background-color: #e4a961;
+        color: white;
+        border: 2px solid #e4A961;
+      }
+.abouttext{
+
+    margin-top: 30px;
+}  
+
+/******* MEDIA QUERIES *********/
+@media All and (max-width: 990px) {
+    .aboutbutton {
+      top: -2.5%;
+      left: 1%;
+      margin-top: 2%;
+    }
+  }
+
+  @media all and (max-width: 770px){
+      .aboutheading{
+          padding-top: 30px;
+      }
+  }
+  
+  @media all and (min-width: 577px) {
+    .right {
+      padding-left: 20px !important;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    .right {
+      padding-left: 12px;
+      padding-top: 20px;
+    }
+  }
+  
+  @media All and (max-width: 400px) {
+    .aboutheading {
+      margin-left: 25%;
+    }
+    .aboutpara{
+        text-align: center;
+    }
+  }
+  
+  @media All and (max-width: 415px) {
+    .aboutheading {
+        margin-left: 25%;
+      }
+      .aboutpara{
+          text-align: center;
+      }
+  }
+  

@@ -1,0 +1,245 @@
+@font-face
+{
+  font-family: "AstroSpace";
+    src: url('../fonts/AstroSpace.ttf');
+}
+
+@font-face
+{
+  font-family: "Poppins";
+    src: url('../fonts/Poppins-Light.ttf');
+}
+/* LEFT BLOCK */
+p{
+  font-family: "Poppins";
+}
+.bgabout {
+  background-image: url("../images/back1.jpg");
+}
+.left {
+  background: pink;
+  background-image: url("../images/mainframe.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.content1 {
+  margin-top: 23%;
+  margin-bottom: 5%;
+}
+.heading1 {
+  margin-left: 33%;
+  color: whitesmoke;
+  font-family: "AstroSpace";
+  letter-spacing: 6px;
+}
+.title1 {
+  font-family: "AstroSpace";
+  letter-spacing: 1px;
+  background-color: whitesmoke;
+  color: red;
+  margin: 8% 0 8% 0;
+  margin-left: 18%;
+  margin-right: 18%;
+  text-align: center;
+  font-size: 111%;
+  border-radius: 10px 30px;
+  padding: 10px 30px;
+}
+.para1 {
+  color: white;
+  text-align: center;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+.button1 {
+  border-radius: 10px 30px;
+  padding: 10px 30px;
+  text-align: center;
+  border: 2px solid silver;
+  background-color: transparent;
+  margin-top: 14%;
+  margin-left: 34%;
+  color: whitesmoke;
+  font-family:"Poppins";
+  transition: background-color 0.5s;
+}
+.button1:hover {
+  background-color: blueviolet;
+  border: 2px solid blueviolet;
+}
+.button1:focus {
+  outline: none;
+}
+
+/* RIGHT BLOCK 1 */
+
+.right2 {
+  background: whitesmoke;
+  background-image: url("../images/mainframe.gif");
+  margin-bottom: 20px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.content2 {
+  text-align: center;
+  padding-top: 9%;
+  margin-right: 10%;
+  margin-left: -6%;
+}
+.heading2 {
+  margin-top: -2.8%;
+  color: whitesmoke;
+  font-family: "AstroSpace";
+  letter-spacing: 6px;
+}
+.title2 {
+  font-family: "AstroSpace";
+  letter-spacing: 1px;
+  background-color: whitesmoke;
+  color: red;
+  font-size: 105%;
+
+  margin: 4% 0 4% 0;
+  margin-left: 33%;
+  margin-right: 33%;
+  padding: 10px 30px;
+  border-radius: 30px 10px;
+}
+.para2 {
+  color: white;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+.button2 {
+  padding: 10px 30px;
+  border-radius: 30px 10px;
+  text-align: center;
+  border: 2px solid silver;
+  background-color: transparent;
+  position: relative;
+  top: -45%;
+  left: 40%;
+  color: whitesmoke;
+  font-family: "Poppins";
+  transition: background-color 0.5s;
+}
+.button2:hover {
+  background-color: tomato;
+  color: white;
+  border: 2px solid tomato;
+}
+
+/* RIGHT BLOCK 2 */
+
+.right3 {
+  background-image: url("../images/mainframe.gif");
+  margin-top: 20px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.heading3 {
+  color: whitesmoke;
+  font-family: "AstroSpace";
+  letter-spacing: 6px;
+}
+.title3 {
+  font-family: "AstroSpace";
+  letter-spacing: 1px;
+  background-color: whitesmoke;
+  color: red;
+  font-size: 100%;
+  margin: 4% 0 4% 0;
+  margin-left: 33%;
+  margin-right: 33%;
+  padding: 10px 30px;
+  border-radius: 30px 10px;
+}
+.button3 {
+  padding: 10px 30px;
+  border-radius: 10px 30px;
+  text-align: center;
+  border: 2px solid silver;
+  background-color: transparent;
+  position: relative;
+  top: -45%;
+  left: 40%;
+  color: whitesmoke;
+  font-family: "Poppins";
+  transition: background-color 0.5s;
+}
+.button3:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid whitesmoke;
+}
+
+/************** MEDIA QURIES************* */
+
+@media All and (max-width: 990px) {
+  .button2 {
+    top: -2.5%;
+    left: 1%;
+    margin-top: 2%;
+  }
+  .button3 {
+    top: -2.5%;
+    left: 1%;
+    margin-top: 2%;
+  }
+}
+
+@media all and (min-width: 577px) {
+  .right {
+    padding-left: 30px !important;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .right {
+    padding-left: 12px;
+    padding-top: 20px;
+  }
+}
+
+@media All and (max-width: 400px) {
+  .heading1 {
+    margin-left: 29%;
+  }
+  .button1 {
+    margin-left: 25%;
+  }
+  .heading2 {
+    margin-left: 18%;
+  }
+  .title2 {
+    padding: 12px 3px;
+    border-radius: 30px 10px;
+  }
+  .title3 {
+    padding: 12px 2px;
+    border-radius: 30px 10px;
+  }
+}
+
+@media All and (max-width: 415px) {
+  .heading1 {
+    margin-left: 29%;
+  }
+  .button1 {
+    margin-left: 25%;
+  }
+  .heading2 {
+    margin-left: 18%;
+  }
+  .title2 {
+    padding: 12px 3px;
+    border-radius: 30px 10px;
+  }
+  .title3 {
+    padding: 12px -9px;
+    border-radius: 30px 10px;
+  }
+}
