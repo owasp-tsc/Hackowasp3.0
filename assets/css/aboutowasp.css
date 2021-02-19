@@ -6,12 +6,9 @@
   font-family: "AstroSpace";
   src: url("../fonts/AstroSpace.ttf");
 }
-/* section#about_hackowasp {
-  background-color: black;
-} */
+
 .owasp_about {
   font-family: "Poppins", sans-serif !important;
-  background-color: black !important;
   color: white;
   padding: 80px 40px 90px 40px;
 }
@@ -27,7 +24,8 @@
   letter-spacing: 6px;
 }
 .aboutpara {
-  color: white;
+  color: black;
+  font-family: 'poppins-med';
 }
 .aboutbutton {
   padding: 10px 50px;
