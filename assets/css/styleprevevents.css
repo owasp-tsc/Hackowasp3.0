@@ -292,15 +292,15 @@
 }
 
 .clash-card__level--barbarian {
-  color: #45a29e;
+  color: #e2a050;
 }
 
 .clash-card__level--archer {
-  color: #45a29e;
+  color: #e2a050;
 }
 
 .clash-card__level--wizard {
-  color: #45a29e;
+  color: #e2a050;
 }
 
 .clash-card__unit-name {
@@ -317,21 +317,21 @@
 }
 
 .clash-card__unit-stats--barbarian {
-  background: #45a29e;
+  background: #e2a050;
 }
 .clash-card__unit-stats--barbarian .one-third {
   border-right: 1px solid #1f2833;
 }
 
 .clash-card__unit-stats--archer {
-  background: #45a29e;
+  background: #e2a050;
 }
 .clash-card__unit-stats--archer .one-third {
   border-right: 1px solid #1f2833;
 }
 
 .clash-card__unit-stats--wizard {
-  background: #45a29e;
+  background: #e2a050;
 }
 .clash-card__unit-stats--wizard .one-third {
   border-right: 1px solid #1f2833;
@@ -427,7 +427,7 @@ a {
 }
 
 .gallery-button:hover {
-  background-color: #45a29e;
+  background-color: #e2a050;
 }
 
 /*---Contacts---*/
@@ -437,7 +437,9 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url("../images/contactus.gif");
+  background: url("../images/101955_black-and-gold-backgrounds-4-high-resolution-wallpapers_1280x1007_h.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-left-image {
@@ -464,14 +466,14 @@ a {
 
 .contact-right-elements .fab,
 .contact-right-elements .fas {
-  color: #66fcf1;
+  color: #EFCA9E;
   transition: color 0.5s;
   font-size: 45px;
 }
 
 .contact-right-elements .fab:hover,
 .contact-right-elements .fas:hover {
-  color: #45a29e;
+  color: #EFCA9E;
 }
 
 .contact-right-elements p {
@@ -500,7 +502,7 @@ a {
 }
 
 .contact-main-heading {
-  color: #66fcf1;
+  color: #EFCA9E;
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
@@ -512,6 +514,8 @@ a {
   letter-spacing: 2px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  background-color: black;
+  color: #e2a050;
 }
 
 @media only screen and (min-width: 765px) {
