@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
-body {
-  font-family: Poppins Black Sacramento;
+
+@font-face {
+  font-family: fredroka-one;
+  src: url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-med;
+  src: url(../fonts/Poppins-Medium.ttf);
 }
 
+body {
+  font-family: 'poppins-med';
+}
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -17,6 +26,7 @@ body {
 nav {
   background-color: black;
   position: fixed;
+  font-family: 'poppins-med';
   z-index: 10000;
 }
 
@@ -170,9 +180,9 @@ nav {
 
 .ml10 {
   position: relative;
-  font-size: 3em;
+  font-size: 2.5em;
   color: white;
-  font-family: Sacramento;
+  font-family: 'fredroka-one' !important;
 }
 
 @media only screen and (max-width: 576px) {
@@ -192,6 +202,7 @@ nav {
   padding-right: 0.05em;
   padding-bottom: 0.1em;
   overflow: hidden;
+  font-family: 'poppins-med';
 }
 
 .ml10 .letter {
@@ -207,6 +218,7 @@ nav {
   border-radius: 27px;
   justify-self: center;
   border: none;
+  font-family: 'poppins-med';
   margin: 0px 10px;
   font-weight: bold;
 }

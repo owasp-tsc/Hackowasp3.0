@@ -1,5 +1,5 @@
 .aboutus {
-  background-color: wheat;
+  background-color: rgb(10, 30, 47);
 
   padding: 50px 0px;
   font-family: "Poppins";
@@ -38,7 +38,7 @@
 }
 
 .aboutus_outer_card {
-  background-color: #fcba03;
+  background-color: #ffae00;
 
   /* transform-style: preserve-3d; */
   /* min-height: 80vh; */

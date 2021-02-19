@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
+
 @keyframes bounce {
   0%,
   100%,
@@ -211,9 +212,9 @@
 
 .clash-card {
   background: white;
-  width: 380px;
+  width: 350px;
   display: inline-block;
-  margin: auto;
+  margin: 2vw;
   border-radius: 19px;
   position: relative;
   text-align: center;
@@ -292,15 +293,15 @@
 }
 
 .clash-card__level--barbarian {
-  color: #e2a050;
+  color: #ffa73c;
 }
 
 .clash-card__level--archer {
-  color: #e2a050;
+  color: #ffa73c;
 }
 
 .clash-card__level--wizard {
-  color: #e2a050;
+  color: #ffa73c;
 }
 
 .clash-card__unit-name {
@@ -317,21 +318,21 @@
 }
 
 .clash-card__unit-stats--barbarian {
-  background: #e2a050;
+  background: #ffa73c;
 }
 .clash-card__unit-stats--barbarian .one-third {
   border-right: 1px solid #1f2833;
 }
 
 .clash-card__unit-stats--archer {
-  background: #e2a050;
+  background: #ffa73c;
 }
 .clash-card__unit-stats--archer .one-third {
   border-right: 1px solid #1f2833;
 }
 
 .clash-card__unit-stats--wizard {
-  background: #e2a050;
+  background: #ffa73c;
 }
 .clash-card__unit-stats--wizard .one-third {
   border-right: 1px solid #1f2833;
@@ -427,7 +428,7 @@ a {
 }
 
 .gallery-button:hover {
-  background-color: #e2a050;
+  background-color: #ffa73c;
 }
 
 /*---Contacts---*/
