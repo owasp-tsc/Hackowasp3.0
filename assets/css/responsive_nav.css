@@ -175,6 +175,7 @@ a {
     top: 0px;
   }
   .nav-header > .nav-btn > label {
+    cursor: pointer;
     display: inline-block;
     margin: 5px;
     width: 50px;
