@@ -79,7 +79,7 @@ a:focus {
   overflow: hidden;
   margin: 50px 50px;
   min-width: 120px;
-  max-width: 360px;
+  max-width: 280px;
   max-height: 440px;
   height: auto;
   background: #66fcf1;
@@ -277,6 +277,7 @@ figure.effect-terry:hover p a:nth-child(4) {
   .content {
     padding: 0 10px;
     text-align: center;
+    margin: 0px;
   }
   .grid figure {
     display: inline-block;
@@ -316,13 +317,14 @@ figure.effect-terry:hover p a:nth-child(4) {
 @media screen and (max-width: 500px) {
   figure.effect-terry h2 {
     -webkit-transform: translate3d(40%, 0, 0);
-    transform: translate3d(40%, 0, 0);
+    transform: translate3d(50%, 0, 0);
   }
   figure.effect-terry h2 {
-    font-size: 10px;
+    font-size: 16px;
+    font-weight: bold;
   }
   figure.effect-terry h2 span {
-    font-size: 8px;
+    font-size: 12px;
   }
   figure.effect-terry p i {
     font-size: 16px;

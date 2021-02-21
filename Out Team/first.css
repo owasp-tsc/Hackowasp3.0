@@ -32,7 +32,7 @@
   overflow: hidden;
   margin: 50px 50px;
   min-width: 120px;
-  max-width: 220px;
+  max-width: 300px;
   max-height: 440px;
   height: auto;
   background: #66fcf1;
@@ -179,11 +179,12 @@ figure2.effect-terry p a {
   .content {
     padding: 0 15px;
     text-align: center;
+    margin: 0px;
   }
   .grid2 figure2 {
     display: inline-block;
     float: none;
-    margin: 50px auto;
+    margin: 50px 0px;
     width: 100%;
   }
 }
@@ -221,21 +222,21 @@ figure2.effect-terry p a {
     transform: translate3d(40%, 0, 0);
   }
   figure2.effect-terry h2 {
-    font-size: 10px;
+    font-size: 12px;
   }
   figure2.effect-terry h2 span {
-    font-size: 8px;
+    font-size: 10px;
   }
   figure2.effect-terry figcaption2::before {
     right: 0;
     bottom: 0;
-    border-width: 0 20px 15px 0;
+    border-width: 0 40px 40px 0;
     -webkit-transform: translate3d(70px, 60px, 0);
     transform: translate3d(70px, 60px, 0);
   }
   figure2.effect-terry p i {
-    font-size: 6px;
-    margin-left: 90%;
+    font-size: 20px;
+    margin-left: 20%;
   }
   p {
     margin-block-start: 0 !important;

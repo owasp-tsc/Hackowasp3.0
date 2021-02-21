@@ -15,7 +15,7 @@
   overflow: hidden;
   margin: 50px 50px;
   min-width: 120px;
-  max-width: 220px;
+  max-width: 240px;
   max-height: 440px;
   height: auto;
   background: #66fcf1;
@@ -244,25 +244,25 @@ figure1.effect-terry:hover p a:nth-child(4) {
 }
 @media screen and (max-width: 500px) {
   figure1.effect-terry h2 {
-    -webkit-transform: translate3d(40%, 0, 0);
-    transform: translate3d(40%, 0, 0);
+    -webkit-transform: translate3d(60%, 0, 0);
+    transform: translate3d(60%, 0, 0);
   }
   figure1.effect-terry h2 {
-    font-size: 10px;
+    font-size: 13px;
   }
   figure1.effect-terry h2 span {
-    font-size: 8px;
+    font-size: 10px;
   }
   figure1.effect-terry figcaption1::before {
     right: 0;
     bottom: 0;
-    border-width: 0 40px 35px 0;
+    border-width: 0 40px 40px 0;
     -webkit-transform: translate3d(70px, 60px, 0);
     transform: translate3d(70px, 60px, 0);
   }
   figure1.effect-terry p i {
-    font-size: 16px;
-    margin-left: 50%;
+    font-size: 24px;
+    margin-left: 30%;
   }
   p {
     margin-block-start: 0 !important;
