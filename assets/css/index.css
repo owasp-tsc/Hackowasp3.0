@@ -12,6 +12,7 @@ body {
   /* scroll-behavior: smooth;
   overflow-y: scroll;
   scroll-snap-type: y mandatory; */
+  overflow-x: hidden;
 }
 
 .scroll_container section {

@@ -6,12 +6,10 @@
   font-family: "AstroSpace";
   src: url("../fonts/AstroSpace.ttf");
 }
-/* section#about_hackowasp {
-  background-color: black;
-} */
+@import url(https://fonts.googleapis.com/css?family=Lato&subset=latin-ext);
+
 .owasp_about {
   font-family: "Poppins", sans-serif !important;
-  background-color: black !important;
   color: white;
   padding: 80px 40px 90px 40px;
 }
@@ -23,11 +21,22 @@
 .aboutheading {
   /* margin-top: -2.8%; */
   color: #e4a961;
-  font-family: "AstroSpace";
   letter-spacing: 6px;
 }
+
+.hackoheading {
+  font-family: "Lato", sans-serif;
+  display: block;
+  color: #000000;
+  font-size: 60px;
+  margin-top: 5vh;
+  font-weight: 600;
+  z-index: 20 !important;
+}
+
 .aboutpara {
-  color: white;
+  color: black;
+  font-family: 'poppins-med';
 }
 .aboutbutton {
   padding: 10px 50px;
