@@ -189,12 +189,12 @@ body {
   font-family: "fredroka-one" !important;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 767px) {
   .buttonhome {
     margin-top: 10px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 576px) {
   .ml10 {
     font-size: 1.8em;
   }
