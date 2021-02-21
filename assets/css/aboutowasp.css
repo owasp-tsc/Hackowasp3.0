@@ -29,10 +29,11 @@
   display: block;
   color: #000000;
   font-size: 60px;
-  margin-top: 5vh;
+  margin-top: 3vh;
   font-weight: 600;
   z-index: 20 !important;
 }
+
 
 .aboutpara {
   color: black;
@@ -84,6 +85,13 @@
   .right {
     padding-left: 12px;
     padding-top: 20px;
+  }
+
+  .hackoheading {
+    font-size: 30px;
+    text-align: center;
+    margin-left: -27%;
+    margin-top: -10%;
   }
 }
 

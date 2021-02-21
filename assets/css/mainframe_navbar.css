@@ -171,7 +171,7 @@ body {
 
 .hackowasplogo {
   animation: glow 2s infinite alternate linear;
-  width: 43%;
+  width: 90%;
   padding-bottom: 30px;
   -webkit-filter: drop-shadow(0px 0px 6px rgba(255, 222, 187, 0.8));
   -webkit-transition: all 0.5s linear;
@@ -184,7 +184,7 @@ body {
 
 .ml10 {
   position: relative;
-  font-size: 2.5em;
+  font-size: 1.8em;
   color: white;
   font-family: "fredroka-one" !important;
 }
@@ -194,13 +194,13 @@ body {
     margin-top: 10px;
   }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 1026px) {
   .ml10 {
-    font-size: 1.8em;
+    font-size: 2.5em;
   }
 
   .hackowasplogo {
-    width: 90%;
+    width: 43%;
   }
 }
 .ml10 .text-wrapper {

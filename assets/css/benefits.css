@@ -85,7 +85,7 @@ svg.intro.go .text-stroke-2 {
 }
 #card {
   height: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
   margin: 0 4em;
   flex-basis: 33%;
@@ -110,7 +110,7 @@ svg.intro.go .text-stroke-2 {
 
 @media (max-width: 850px) {
   #benefits {
-    height: 90em;
+    height: auto;
   }
   #content {
     flex-direction: column;
