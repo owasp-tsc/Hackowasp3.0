@@ -4,21 +4,20 @@ body {
   font-family: Poppins Black Sacramento;
 }
 
-
 ::-webkit-scrollbar {
   width: 5px;
   height: 8px;
   background-color: rgb(0, 27, 59); /* or add it to the track */
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 182, 122);
+  background: rgb(255, 182, 122);
 }
 
-nav {
+/* nav.desktop {
   background-color: black;
   position: fixed;
   z-index: 10000;
-}
+} */
 
 @font-face {
   font-family: Poppins Black;
@@ -54,7 +53,7 @@ nav {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
-
+/* 
 .nav-link {
   color: white;
 }
@@ -70,7 +69,7 @@ nav {
   color: white;
   text-align: center;
   text-decoration: underline;
-}
+} */
 
 .shadow {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -119,9 +118,9 @@ nav {
   display: block;
 } */
 
-.navbar-brand {
+/* .navbar-brand {
   margin-right: 22%;
-}
+} */
 
 .outer {
   background-color: white;
@@ -141,7 +140,7 @@ nav {
   border: none;
 }
 
-.floatlogo{
+.floatlogo {
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -149,9 +148,15 @@ nav {
 }
 
 @keyframes floating {
-  from { transform: translate(0,  0px); }
-  65%  { transform: translate(0, 10px); }
-  to   { transform: translate(0, -0px); }    
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 10px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
 }
 
 .hackowasplogo {
@@ -159,13 +164,12 @@ nav {
   width: 43%;
   padding-bottom: 30px;
   -webkit-filter: drop-shadow(0px 0px 6px rgba(255, 222, 187, 0.8));
-	-webkit-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;
-	
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 .hackowasplogo:hover {
-	-webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
 }
 
 .ml10 {
