@@ -221,7 +221,7 @@ body {
 
 .buttonhome {
   width: 304px;
-  height: 45px;
+  height: 43px;
   color: #27333f;
   background-color: #fff;
   /* background: #efca9e; */
@@ -233,6 +233,7 @@ body {
   /* margin-top: 10px; */
   font-weight: bold;
   border: 2px solid transparent;
+  border-radius: 3px;
 }
 
 /* .register {
