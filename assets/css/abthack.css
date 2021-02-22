@@ -3,6 +3,32 @@
   src: url(../fonts/Poppins-Medium.ttf);
 }
 
+.heading-hacko {
+  margin-bottom: 30px;
+}
+
+.heading-hacko .ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+  font-family: 'poppins-med';
+}
+
+.heading-hacko .ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.heading-hacko .ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
 .abthck{
     color: black!important;
     font-family: 'poppins-med';
@@ -75,7 +101,7 @@
   transition-duration: 0.3s;
   transition-property: transform opacity;
 }
-.mobile-wrapper:hover {
+.mobile-wrapper {
   transform: translateY(-6px);
   animation-name: hover;
   animation-duration: 1.5s;
@@ -84,7 +110,7 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-.mobile-wrapper:hover:before {
+.mobile-wrapper:before {
   opacity: 0.4;
   transform: translateY(6px);
   animation-name: hover-shadow;
