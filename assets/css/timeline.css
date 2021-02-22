@@ -300,8 +300,8 @@
   }
 
   #timeline_container{
-    max-width: 260px;
-    margin: 1vh 3vw 1vh 3vw;
+    max-width: 270px;
+    margin: 1vh 3vw 1vh 15vw;
   }
 
   .event__headline{
