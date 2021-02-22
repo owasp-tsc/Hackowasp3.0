@@ -301,7 +301,7 @@
 
   #timeline_container{
     max-width: 250px;
-    margin: 1vh 3vw 1vh 13vw;
+    margin: 1vh 3vw 1vh 3vw;
   }
 
   .event__headline{
