@@ -94,11 +94,13 @@ h2:after {
 }
 .card {
   background: transparent;
-  /* height: 200px; */
+  height: 120px;
   padding: auto;
-  /* width: 300px; */
-  min-height: 120px;
-  max-height: auto;
+  /* margin: 5px; */
+  width: 278px;
+  /* min-height: 120px; */
+  /* max-height: auto; */
+
   justify-content: center;
 }
 
@@ -225,4 +227,9 @@ h2:after {
 .news .article:active figcaption {
   opacity: 1;
   transform: none;
+}
+@media screen and (max-width: 770px) {
+  .card {
+    margin: 20px !important;
+  }
 }

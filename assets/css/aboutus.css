@@ -1,5 +1,5 @@
 .aboutus {
-  background-color: #24282F;
+  background-color: #24282f;
 
   padding: 50px 0px;
   font-family: "Poppins";
@@ -11,6 +11,23 @@
 /* .acronym {
     white-space: normal;
 } */
+.aboutbutton {
+  padding: 10px 50px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid rgb(255, 204, 0);
+  background-color: transparent;
+  position: relative;
+  top: 5%;
+  color: black;
+  font-family: "Poppins";
+  transition: background-color 0.5s;
+}
+.aboutbutton:hover {
+  /* background-color: #e4a961; */
+  color: white;
+  border: 2px solid rgb(255, 204, 0);
+}
 .acronym_mobile {
   display: none;
 }
@@ -38,7 +55,7 @@
 }
 
 .aboutus_outer_card {
-  background-color:#24282F ;
+  background-color: #24282f;
 
   /* transform-style: preserve-3d; */
   /* min-height: 80vh; */
