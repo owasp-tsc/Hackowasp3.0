@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-
+@font-face {
+  font-family: poppins-med;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
 
 @keyframes bounce {
   0%,
@@ -390,6 +393,7 @@
   position: relative;
   font-weight: 200;
   font-size: 4em;
+  font-family: 'poppins-med';
 }
 
 .heading-prev-events .ml9 .text-wrapper {
