@@ -297,6 +297,7 @@ body {
 /* --------------------------------modal popup------------------------------- */
 .swal-overlay{
   background-color: #8c9dff72;
+  z-index: 10000;
  }
  
  .swal-button{

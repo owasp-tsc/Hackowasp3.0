@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="./assets/css/sponsers.css" />
     <link rel="stylesheet" href="./assets/css/timeline.css" />
     <link rel="stylesheet" href="./assets/css/responsive_nav.css" />
+    <link rel="stylesheet" href="./assets/css/loader.css" />
     <link
       rel="stylesheet"
       href="./assets/css/judges_speakers_glitch-text.css"
@@ -72,6 +73,14 @@
     <title>Hackowasp 3.0</title>
   </head>
   <body>
+    <div class="overlay">
+      <div class="overlayDoor"></div>
+      <div class="overlayContent">
+        <div class="loader">
+          <div class="inner"></div>
+        </div>
+      </div>
+    </div>
     <main class="et-main">
     <div class="scroll_container ">
       <section id="mainframe_navbar">
@@ -1208,6 +1217,26 @@
       button : false
   }) 
       }, 3000);
+</script>
+
+
+<!-- *********LOADER********* -->
+<script>
+  $(document).ready(function() {
+	
+	// Will wait for everything on the page to load.
+	$(window).bind('load', function() {
+		$('.overlay, body').addClass('loaded');
+		setTimeout(function() {
+			$('.overlay').css({'display':'none'})
+		}, 2000)
+	});
+	
+	// Will remove overlay after 1min for users cannnot load properly.
+	setTimeout(function() {
+		$('.overlay, body').addClass('loaded');
+	}, 60000);
+})
 </script>
 
 
