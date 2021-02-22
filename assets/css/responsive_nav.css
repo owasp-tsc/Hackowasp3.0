@@ -91,7 +91,7 @@ a {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: #efca9e;
+  background: rgb(255, 182, 122);
   transition: left 0.3s ease;
 }
 .nav-btn, #nav-c
