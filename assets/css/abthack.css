@@ -1,5 +1,11 @@
+@font-face {
+  font-family: poppins-med;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
 .abthck{
     color: black!important;
+    font-family: 'poppins-med';
   }
   #abthack{
       padding: 2rem;
@@ -8,6 +14,7 @@
     background-color: white;
     padding: 1rem;
     margin: 0;
+    font-family: 'poppins-med';
   }
   #abthack .row .col-sm iframe{
       margin-left: 5rem;
@@ -17,3 +24,4 @@
     margin-right: 5rem;
      
 }
+

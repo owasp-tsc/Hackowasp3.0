@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
-body {
-  font-family: Poppins Black Sacramento;
+@font-face {
+  font-family: fredroka-one;
+  src: url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-med;
+  src: url(../fonts/Poppins-Medium.ttf);
 }
 
+body {
+  font-family: "poppins-med";
+}
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -11,14 +19,15 @@ body {
   background-color: rgb(0, 27, 59); /* or add it to the track */
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 182, 122);
+  background: rgb(255, 182, 122);
 }
 
-nav {
+/* nav.desktop {
   background-color: black;
   position: fixed;
+  font-family: 'poppins-med';
   z-index: 10000;
-}
+} */
 
 @font-face {
   font-family: Poppins Black;
@@ -54,7 +63,7 @@ nav {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
-
+/* 
 .nav-link {
   color: white;
 }
@@ -70,7 +79,7 @@ nav {
   color: white;
   text-align: center;
   text-decoration: underline;
-}
+} */
 
 .shadow {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -119,9 +128,9 @@ nav {
   display: block;
 } */
 
-.navbar-brand {
+/* .navbar-brand {
   margin-right: 22%;
-}
+} */
 
 .outer {
   background-color: white;
@@ -141,7 +150,7 @@ nav {
   border: none;
 }
 
-.floatlogo{
+.floatlogo {
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -149,42 +158,51 @@ nav {
 }
 
 @keyframes floating {
-  from { transform: translate(0,  0px); }
-  65%  { transform: translate(0, 10px); }
-  to   { transform: translate(0, -0px); }    
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 10px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
 }
 
 .hackowasplogo {
   animation: glow 2s infinite alternate linear;
-  width: 43%;
+  width: 90%;
   padding-bottom: 30px;
   -webkit-filter: drop-shadow(0px 0px 6px rgba(255, 222, 187, 0.8));
-	-webkit-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;
-	
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 .hackowasplogo:hover {
-	-webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
 }
 
 .ml10 {
   position: relative;
-  font-size: 3em;
+  font-size: 1.8em;
   color: white;
-  font-family: Sacramento;
+  font-family: "fredroka-one" !important;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 767px) {
+  .buttonhome {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 1026px) {
   .ml10 {
-    font-size: 1.8em;
+    font-size: 2.5em;
   }
 
   .hackowasplogo {
-    width: 90%;
+    width: 43%;
   }
 }
-
 .ml10 .text-wrapper {
   position: relative;
   display: inline-block;
@@ -192,6 +210,7 @@ nav {
   padding-right: 0.05em;
   padding-bottom: 0.1em;
   overflow: hidden;
+  font-family: "poppins-med";
 }
 
 .ml10 .letter {
@@ -207,7 +226,9 @@ nav {
   border-radius: 27px;
   justify-self: center;
   border: none;
-  margin: 0px 10px;
+  font-family: "poppins-med";
+  margin: 2px 10px;
+  /* margin-top: 10px; */
   font-weight: bold;
 }
 

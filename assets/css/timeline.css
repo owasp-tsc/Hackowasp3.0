@@ -81,7 +81,7 @@
 }
 
 .important {
-  color: #fcba03;
+  color: #fc9803;
 }
 
 .event {
@@ -141,8 +141,8 @@
   width: 100%;
   padding: 0 2rem;
   position: relative;
-  border-top: 2px dashed #66fcf1;
-  border-left: 2px dashed #66fcf1;
+  border-top: 2px dashed #ffffff;
+  border-left: 2px dashed #ffffff;
 }
 .event__content {
   padding: 2rem 0;
@@ -196,7 +196,7 @@
 }
 .event:nth-child(even) .event__wrapper {
   border-left: none;
-  border-right: 2px dashed #66fcf1;
+  border-right: 2px dashed #ffffff;
   text-align: right;
 }
 .dot {
