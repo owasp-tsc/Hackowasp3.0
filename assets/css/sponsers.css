@@ -55,7 +55,7 @@ h2 span {
   vertical-align: middle;
 }
 body {
-  background: #24282F;
+  background: #24282f;
   font-family: "Alegreya Sans";
 }
 .wrapper {
@@ -90,11 +90,22 @@ h2:after {
 .cards,
 .news {
   flex-flow: row wrap;
+  justify-content: center;
+}
+.card {
+  background: transparent;
+  /* height: 200px; */
+  padding: auto;
+  /* width: 300px; */
+  min-height: 120px;
+  max-height: auto;
+  justify-content: center;
 }
 
 .cards .card,
 .news .card {
   padding: 10px;
+
   margin: 45px;
   /* width: 271px;
   height: 270px; */
@@ -108,7 +119,9 @@ h2:after {
 .cards .card img,
 .news .card img {
   width: 100%;
-  min-height: 100%;
+  /* min-height: 100%; */
+  /* height: 100%; */
+  /* height: 100px; */
 }
 .cards .card figcaption,
 .news .card figcaption {
@@ -119,7 +132,8 @@ h2:after {
   padding-bottom: 10px;
   font-size: 20px;
   background: none;
-  color: #fff;
+  /* color: #fff; */
+
   transform: translateY(100%);
   transition: 0.3s;
 }
