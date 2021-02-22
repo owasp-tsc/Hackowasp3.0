@@ -116,17 +116,17 @@ svg.intro.go .text-stroke-2 {
   height: 18em;
 }
 #card .con {
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins-med", sans-serif;
   margin: 0 6em;
-  font-size: 13px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: 600;
   text-align: center;
 }
 #card2 .con {
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins-med", sans-serif;
   margin: 0 6em;
-  font-size: 13px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: 600;
   text-align: center;
 }
 
