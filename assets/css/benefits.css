@@ -87,7 +87,18 @@ svg.intro.go .text-stroke-2 {
   height: auto;
   /* border: 1px solid black; */
   text-align: center;
-  margin: 0 4em;
+  margin: 1vh 0.1vw;
+  flex-basis: 33%;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+#card2 {
+  height: auto;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 1vh 0.1vw;
   flex-basis: 33%;
   align-content: center;
   display: flex;
@@ -99,10 +110,21 @@ svg.intro.go .text-stroke-2 {
 }
 #card .image img {
   height: 20em;
+  margin: auto;
+}
+#card2 .image img {
+  height: 18em;
 }
 #card .con {
   font-family: "Roboto", sans-serif;
-  margin: 0 4em;
+  margin: 0 6em;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+}
+#card2 .con {
+  font-family: "Roboto", sans-serif;
+  margin: 0 6em;
   font-size: 13px;
   font-weight: 900;
   text-align: center;
