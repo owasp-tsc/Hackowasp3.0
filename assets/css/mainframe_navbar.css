@@ -291,4 +291,25 @@ body {
   .ml10{
     margin-bottom: 5vh;
   }
+
 }
+
+/* --------------------------------modal popup------------------------------- */
+.swal-overlay{
+  background-color: #8c9dff72;
+ }
+ 
+ .swal-button{
+   background-color: #8C9EFF;
+   margin-bottom: 5vh;
+ }
+ 
+ .swal-modal{
+   background-color: #292828;
+   color: #fff !important;
+   box-shadow: 0px 0px 20px #fff;
+ }
+ 
+ .swal-text{
+   color: #fff !important;
+ }
