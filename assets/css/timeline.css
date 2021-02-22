@@ -300,7 +300,7 @@
   }
 
   #timeline_container{
-    max-width: 250px;
+    max-width: 260px;
     margin: 1vh 3vw 1vh 3vw;
   }
 
@@ -309,6 +309,6 @@
   }
 
   .event:after{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
