@@ -51,6 +51,9 @@ class StickyNavigation {
     let newCurrentTab;
     let self = this;
     $(".et-hero-tab").each(function () {
+      // if($(this).className)
+      // console.log();
+      if ($(this).attr("class").split(/\s+/).includes("deactivate")) return;
       let id = $(this).attr("href");
 
       let offsetTop = $(id).offset().top - self.tabContainerHeight;

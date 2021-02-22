@@ -5,7 +5,10 @@
 a {
   text-decoration: none;
 } */
-
+.deactivate {
+  background-color: black !important;
+  cursor: default;
+}
 .et-hero-tabs {
   display: flex;
   flex-direction: column;
@@ -168,6 +171,7 @@ a {
     padding: 10px;
     z-index: 10000;
   }
+
   .nav-header > .nav-btn {
     display: inline-block;
     position: fixed;
