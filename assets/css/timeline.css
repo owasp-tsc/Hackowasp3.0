@@ -273,3 +273,23 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  #headline h1 span {
+    font-size: 1.08em;
+    font-weight: 800;
+  }
+
+  #timeline_container{
+    max-width: 280px;
+    margin: 1vh 3vw 1vh 10vw;
+  }
+
+  .event__headline{
+    font-size: 1.2em;
+  }
+
+  .event:after{
+    font-size: 1rem;
+  }
+}

@@ -203,6 +203,24 @@ body {
     width: 43%;
   }
 }
+@media only screen and (max-width: 650px) {
+  .ml10 {
+    font-size: 1.3em;
+  }
+
+  .hackowasplogo {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .ml10 {
+    font-size: 1.1em;
+  }
+
+  .hackowasplogo {
+    width: 80%;
+  }
+}
 .ml10 .text-wrapper {
   position: relative;
   display: inline-block;
