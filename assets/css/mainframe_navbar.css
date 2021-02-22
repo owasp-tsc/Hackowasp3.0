@@ -282,13 +282,13 @@ body {
     background-color: #fff;
     border: none;
     font-family: "poppins-med";
-    margin: 20vh 10px;
+    margin: 5vh 10px;
     font-weight: bold;
     border: 2px solid transparent;
     border-radius: 3px;
   }
 
-  .apply-button{
-    margin: 20vh 10px;
+  .ml10{
+    margin-bottom: 5vh;
   }
 }
