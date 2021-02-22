@@ -220,6 +220,9 @@ body {
   .hackowasplogo {
     width: 80%;
   }
+  .custom_navbar .nav-links a{
+    font-size: 1rem;
+  }
 }
 .ml10 .text-wrapper {
   position: relative;
