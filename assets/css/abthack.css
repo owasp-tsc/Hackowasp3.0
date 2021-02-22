@@ -120,3 +120,12 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+@media only screen and (max-width: 500px){
+  .heading-hacko .ml9 {
+    position: relative;
+    font-weight: 200;
+    font-size: 2.2em;
+    font-family: 'poppins-med';
+  }
+}
