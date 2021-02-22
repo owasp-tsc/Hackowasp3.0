@@ -34,28 +34,11 @@
   z-index: 20 !important;
 }
 
-
 .aboutpara {
   color: black;
-  font-family: 'poppins-med';
+  font-family: "poppins-med";
 }
-.aboutbutton {
-  padding: 10px 50px;
-  border-radius: 30px;
-  text-align: center;
-  border: 2px solid black;
-  background-color: transparent;
-  position: relative;
-  top: 5%;
-  color: black;
-  font-family: "Poppins";
-  transition: background-color 0.5s;
-}
-.aboutbutton:hover {
-  /* background-color: #e4a961; */
-  color: white;
-  border: 2px solid black;
-}
+
 .abouttext {
   margin-top: 30px;
 }
