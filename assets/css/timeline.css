@@ -274,14 +274,14 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   #headline h1 span {
     font-size: 1.08em;
     font-weight: 800;
   }
 
   #timeline_container{
-    max-width: 280px;
+    max-width: 260px;
     margin: 1vh 3vw 1vh 13vw;
   }
 
@@ -290,6 +290,6 @@
   }
 
   .event:after{
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
