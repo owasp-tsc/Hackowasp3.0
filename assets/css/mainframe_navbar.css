@@ -273,3 +273,22 @@ body {
   background-color: white;
   height: 60px;
 }
+
+@media (max-width: 750px) {
+  .buttonhome {
+    width: 304px;
+    height: 43px;
+    color: #27333f;
+    background-color: #fff;
+    border: none;
+    font-family: "poppins-med";
+    margin: 20vh 10px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 3px;
+  }
+
+  .apply-button{
+    margin: 20vh 10px;
+  }
+}
