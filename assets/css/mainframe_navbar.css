@@ -203,6 +203,27 @@ body {
     width: 43%;
   }
 }
+@media only screen and (max-width: 650px) {
+  .ml10 {
+    font-size: 1.3em;
+  }
+
+  .hackowasplogo {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .ml10 {
+    font-size: 1.1em;
+  }
+
+  .hackowasplogo {
+    width: 80%;
+  }
+  .custom_navbar .nav-links a{
+    font-size: 1rem;
+  }
+}
 .ml10 .text-wrapper {
   position: relative;
   display: inline-block;
@@ -252,3 +273,44 @@ body {
   background-color: white;
   height: 60px;
 }
+
+@media (max-width: 750px) {
+  .buttonhome {
+    width: 304px;
+    height: 43px;
+    color: #27333f;
+    background-color: #fff;
+    border: none;
+    font-family: "poppins-med";
+    margin: 4vh 10px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 3px;
+  }
+
+  .ml10{
+    margin-bottom: 5vh;
+  }
+
+}
+
+/* --------------------------------modal popup------------------------------- */
+.swal-overlay{
+  background-color: #8c9dff72;
+  z-index: 10000;
+ }
+ 
+ .swal-button{
+   background-color: #8C9EFF;
+   margin-bottom: 5vh;
+ }
+ 
+ .swal-modal{
+   background-color: #292828;
+   color: #fff !important;
+   box-shadow: 0px 0px 20px #fff;
+ }
+ 
+ .swal-text{
+   color: #fff !important;
+ }

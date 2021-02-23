@@ -273,3 +273,44 @@
     opacity: 1;
   }
 }
+
+
+@media only screen and (max-width: 700px) {
+  #headline h1 span {
+    font-size: 1em;
+    font-weight: 800;
+  }
+
+  #timeline_container{
+    max-width: 320px;
+    margin: 1vh auto;
+  }
+
+  .event__headline{
+    font-size: 1.2em;
+  }
+
+  .event:after{
+    font-size: 1rem ;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #headline h1 span {
+    font-size: 1.08em;
+    font-weight: 800;
+  }
+
+  #timeline_container{
+    max-width: 270px;
+    margin: 1vh auto;
+  }
+
+  .event__headline{
+    font-size: 1.2em;
+  }
+
+  .event:after{
+    font-size: 0.8rem;
+  }
+}
