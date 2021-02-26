@@ -194,14 +194,27 @@ figure2.effect-terry p a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 769px) and (min-width: 760px)
+{
+  .grid2 {
+    margin-left: 29%;
+  }
+
+  .grid2 figure2 {
+    max-width: 240px;
+  }
+}
+@media screen and (max-width: 770px) {
   h1 {
     font-size: 2.5rem;
   }
   .grid2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    /* margin-left: 20%; */
   }
+
   figure2.effect-terry {
     margin-bottom: 50px !important;
   }

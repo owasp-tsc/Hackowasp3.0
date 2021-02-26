@@ -12,9 +12,33 @@
 </head>
 
 <body>
-    <div>
+    <!-- <div>
         <h1>Our Team</h1>
-    </div>
+    </div> -->
+
+    <h1 class="ml15">
+        <span class="word">OUR</span>
+        <span class="word">TEAM</span>
+    </h1>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        anime.timeline({loop: false})
+        .add({
+            targets: '.ml15 .word',
+            scale: [14,1],
+            opacity: [0,1],
+            easing: "easeOutCirc",
+            duration: 800,
+            delay: (el, i) => 800 * i
+        }).add({
+            targets: '.ml15',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 100000000
+        });
+    </script>
 
     <div>
         <h3>
@@ -111,7 +135,7 @@
     <div>
         <h3>
             <center>
-                2nd Year
+                HEADS
             </center>
         </h3>
     </div>
@@ -120,6 +144,31 @@
         <div class="grid1">
 
 
+            <figure1 class="effect-terry">
+                <img src="photos/995fc182-7d58-4251-a77f-9d1431f1e3a0%20-%20SUSHILA%20KAUR.jpg" alt="img26" />
+                <figcaption1>
+                    <h2>SUSHILA KAUR<br><span> Event Management Head</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-share"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-tags"></i></a>
+                    </p>
+                </figcaption1>
+            </figure1>
+
+            <figure1 class="effect-terry">
+                <img src="photos/kritik.jpg" alt="img26" />
+                <figcaption1>
+                    <h2>Kritik Ajmani<br><span> Event Management Head</span></h2>
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-share"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-tags"></i></a>
+                    </p>
+                </figcaption1>
+            </figure1>
 
             <figure1 class="effect-terry">
                 <img src="photos/+91%2099530%2038121%2020210119_233458%20-%20RISHABH%20JAIN.jpg" alt="img26" />
@@ -213,32 +262,6 @@
             </figure1>
 
             <figure1 class="effect-terry">
-                <img src="photos/995fc182-7d58-4251-a77f-9d1431f1e3a0%20-%20SUSHILA%20KAUR.jpg" alt="img26" />
-                <figcaption1>
-                    <h2>SUSHILA KAUR<br><span> Event Management Head</span></h2>
-                    <p>
-                        <a href="#"><i class="fa fa-fw fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-fw fa-share"></i></a>
-                        <a href="#"><i class="fa fa-fw fa-tags"></i></a>
-                    </p>
-                </figcaption1>
-            </figure1>
-
-            <figure1 class="effect-terry">
-                <img src="photos/kritik.jpg" alt="img26" />
-                <figcaption1>
-                    <h2>Kritik Ajmani<br><span> Event Management Head</span></h2>
-                    <p>
-                        <a href="#"><i class="fa fa-fw fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-fw fa-share"></i></a>
-                        <a href="#"><i class="fa fa-fw fa-tags"></i></a>
-                    </p>
-                </figcaption1>
-            </figure1>
-
-            <figure1 class="effect-terry">
                 <img src="photos/WhatsApp%20Image%202021-02-22%20at%203.11.39%20PM.jpeg" alt="img26" />
                 <figcaption1>
                     <h2>Rijuta Pundir<br><span> Content Head </span></h2>
@@ -284,7 +307,7 @@
     <div>
         <h3>
             <center>
-                1st Year
+                JOINT-HEADS
             </center>
         </h3>
     </div>
