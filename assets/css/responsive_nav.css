@@ -54,29 +54,33 @@ a {
 }
 .et-hero-tabs-container {
   font-family: "Century Gothic", "Lato", sans-serif;
-
   display: flex;
   flex-direction: row;
-
   width: 100%;
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: black;
   z-index: 100000;
+  justify-content: space-between;
 }
 .et-hero-tabs-container a {
   text-decoration: none;
+  padding: 10px 0px;
 }
 .et-hero-tabs-container--top {
   position: fixed;
   top: 0;
 }
 
+.class2{
+  display: flex;
+  flex-direction: row;
+}
+
 .et-hero-tab {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
   color: white;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
@@ -84,8 +88,6 @@ a {
 }
 .et-hero-tab:hover {
   color: black;
-  /* background: rgba(102, 177, 241, 0.8); */
-  background: #efca9e;
   transition: all 0.5s ease;
 }
 
@@ -147,7 +149,7 @@ a {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1030px) {
   .custom_navbar > .nav-header {
     display: block;
   }
@@ -240,16 +242,46 @@ a {
   }
 
   .et-hero-tab {
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .custom_navbar > .nav-links > a {
-    display: block;
-    width: 100%;
     font-size: 1.2rem;
-
-    margin: 5vh 0;
   }
 }
+
+@media only screen and (max-width: 1029px) {
+.class2{
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 0;
+}
+.class2 a{
+  margin: 20px 0px;
+}
+.et-hero-tab {
+  font-size: 2rem;
+}
+}
+@media only screen and (max-width: 415px) {
+  .class2{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0;
+  }
+  .class2 a{
+    margin: 20px 0px;
+  }
+  .et-hero-tab {
+    font-size: 1.4rem;
+  }
+  }
+  @media only screen and (max-width: 400px) {
+    .class2{
+      display: flex;
+      flex-direction: column;
+      margin: 10vh 0;
+    }
+    .class2 a{
+      margin: 20px 0px;
+    }
+    .et-hero-tab {
+      font-size: 2rem;
+    }
+    }
