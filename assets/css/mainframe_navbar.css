@@ -69,8 +69,9 @@ body {
 
 .mainframe {
   /* background-color: black; */
-  background-image: url(../images/background.gif);
+  background-image: url("https://i.pinimg.com/originals/1a/af/e8/1aafe844797fafb2ba2e26812501467b.gif");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   justify-content: center;
   justify-items: center;
@@ -193,8 +194,11 @@ body {
 } */
 
 .polygon {
-  background-color: black;
+  background-image: url("https://i.pinimg.com/originals/1a/af/e8/1aafe844797fafb2ba2e26812501467b.gif");
   color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100px;
   border: none;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
