@@ -69,13 +69,14 @@ body {
 
 .mainframe {
   /* background-color: black; */
-  background-image: url("https://i.pinimg.com/originals/1a/af/e8/1aafe844797fafb2ba2e26812501467b.gif");
+  background-image: url("../images/background.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   justify-content: center;
   justify-items: center;
   padding-top: 130px;
+  height: 100vh;
   text-align: center;
   width: 100%;
   /* padding-bottom: 20px; */
@@ -193,21 +194,6 @@ body {
   margin-right: 20px;
 } */
 
-.polygon {
-  background-image: url("https://i.pinimg.com/originals/1a/af/e8/1aafe844797fafb2ba2e26812501467b.gif");
-  color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100px;
-  border: none;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-}
-
-.why_us {
-  background-color: white;
-  height: 60px;
-}
 
 @media (max-width: 750px) {
   .buttonhome {
