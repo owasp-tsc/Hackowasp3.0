@@ -11,7 +11,7 @@
   position: relative;
   font-weight: 200;
   font-size: 4em;
-  font-family: 'poppins-med';
+  font-family: "poppins-med";
 }
 
 .heading-hacko .ml9 .text-wrapper {
@@ -29,30 +29,29 @@
   line-height: 1em;
 }
 
-.abthck{
-    color: black!important;
-    font-family: 'poppins-med';
-  }
-  #abthack{
-      padding: 2rem;
-  }
-  #abthack .row{
-    background-color: white;
-    padding: 1rem;
-    margin: 0;
-    font-family: 'poppins-med';
-  }
-  #abthack .row .col-sm iframe{
-      margin-left: 5rem;
-       margin-bottom: 2vh;
-  }
-  #abthack .row .col p{
-    margin-right: 5rem;
-     
+.abthck {
+  color: black !important;
+  font-family: "poppins-med";
+}
+#abthack {
+  padding: 2rem;
+}
+#abthack .row {
+  background-color: white;
+  padding: 1rem;
+  margin: 0;
+  font-family: "poppins-med";
+}
+#abthack .row .col-sm iframe {
+  margin-left: 5rem;
+  margin-bottom: 2vh;
+}
+#abthack .row .col p {
+  margin-right: 5rem;
 }
 
-.mobile-wrapper iframe{
-  border: 12px #24282F solid;
+.mobile-wrapper iframe {
+  border: 12px #24282f solid;
   border-radius: 10px;
   box-shadow: 2px 2px 5px black;
 }
@@ -96,7 +95,11 @@
   height: 10px;
   width: 90%;
   opacity: 0;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
   /* W3C */
   transition-duration: 0.3s;
   transition-property: transform opacity;
@@ -120,12 +123,17 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+@media only screen and (max-width: 770px) {
+  .mobile-wrapper {
+    margin: 5vh 12vw;
+  }
+}
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
   .heading-hacko .ml9 {
     position: relative;
     font-weight: 200;
     font-size: 2.2em;
-    font-family: 'poppins-med';
+    font-family: "poppins-med";
   }
 }
