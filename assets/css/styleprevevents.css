@@ -217,7 +217,6 @@
   background: white;
   width: 350px;
   display: inline-block;
-  margin: 2vw;
   border-radius: 19px;
   position: relative;
   text-align: center;
@@ -227,7 +226,13 @@
 
 @media only screen and (max-width: 576px) {
   .clash-card {
-    width: 300px;
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .clash-card {
+    width: 240px;
   }
 }
 
