@@ -64,7 +64,11 @@
     padding-top: 30px;
   }
 }
-
+@media (max-width: 760px) {
+  .aboutpara {
+    padding: 2.5rem 2rem;
+  }
+}
 @media all and (min-width: 577px) {
   .right {
     padding-left: 20px !important;
