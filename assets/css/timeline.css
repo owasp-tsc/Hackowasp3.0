@@ -41,10 +41,10 @@
 /* ANIMATION */
 
 #timeline {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins";
   font-size: 16px;
   color: white;
-  background-color: #24282F;
+  background-color: #24282f;
   /* background: #1f2833; */
   font-weight: 300;
 }
@@ -58,14 +58,15 @@
 }
 #headline {
   text-align: center;
-  padding: 2rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
+  padding-top: 4rem;
+  padding-bottom: 3rem;
 }
 #headline h1 {
-  font-size: 2em;
+  font-size: 3rem;
 }
 #headline h1 span {
-  font-size: 2em;
+  font-size: 4.6rem;
   font-weight: 800;
 }
 @media screen and (max-width: 600px) {
@@ -78,11 +79,12 @@
   max-width: 900px;
   margin: 1.5rem auto;
   border-radius: 0 0.15rem 0.15rem 0;
-  background-color: #24282F !important; 
+  background-color: #24282f !important;
 }
 
 .important {
   color: #fc9803;
+  font-weight: 600;
 }
 
 .event {
@@ -101,7 +103,7 @@
   border-bottom: 1rem solid #1f2833;
   width: 2rem;
   height: 2rem;
-  background-color: #24282F;
+  background-color: #24282f;
   background-image: url("../images/transaction.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -168,7 +170,7 @@
   position: relative;
   margin-bottom: 1rem;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
 }
 .event__text h3 {
   color: #7d97b8;
@@ -274,24 +276,23 @@
   }
 }
 
-
 @media only screen and (max-width: 700px) {
   #headline h1 span {
-    font-size: 1em;
+    font-size: 4rem;
     font-weight: 800;
   }
 
-  #timeline_container{
+  #timeline_container {
     max-width: 320px;
     margin: 1vh auto;
   }
 
-  .event__headline{
+  .event__headline {
     font-size: 1.2em;
   }
 
-  .event:after{
-    font-size: 1rem ;
+  .event:after {
+    font-size: 1rem;
   }
 }
 
@@ -301,16 +302,16 @@
     font-weight: 800;
   }
 
-  #timeline_container{
+  #timeline_container {
     max-width: 270px;
     margin: 1vh auto;
   }
 
-  .event__headline{
+  .event__headline {
     font-size: 1.2em;
   }
 
-  .event:after{
+  .event:after {
     font-size: 0.8rem;
   }
 }

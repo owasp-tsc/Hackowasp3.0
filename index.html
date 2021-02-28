@@ -90,8 +90,7 @@
 
              <div class="nav-res-logo">
                <a class="" href="#mainframe_navbar"
-               ><img src="./assets/images/owasp_logo.png" height="50px"
-               /></a>
+               ><img src="./assets/images/owasp_logo.png" height="50px" style="position: relative; top: -2px;" /></a>
               </div>
               <input type="checkbox"  id="nav-check">
           <div class="nav-btn">
@@ -108,11 +107,11 @@
            
    
       <div class="et-hero-tabs-container nav-links">
+      <div class="class1">
         <a class=" et-hero-tab navbar-logo" href="#aboutus"
-        ><img src="./assets/images/owasp_logo.png" height="50px"
-        /></a>
-        <a class="et-hero-tab deactivate" href="#"></a>
-     
+        ><img src="./assets/images/owasp_logo.png" height="50px" style="position: relative; top: 7px;" /></a>
+      </div>
+        <div class="class2">
         <a class="et-hero-tab" href="#about_hackowasp">About</a>
         <a class="et-hero-tab" href="#timeline">Timeline</a>
         <a class="et-hero-tab" href="#problemStatements">Problem Statements</a>
@@ -122,6 +121,7 @@
         <a class="et-hero-tab" href="#sponsors">Sponsors</a>
       
           <span class="et-hero-tab-slider"></span>
+        </div>
       </div>
     </section>
   </nav>
@@ -144,7 +144,7 @@
           </h1>
           <script src="assets/js/mainframe.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-          <div class="container">
+          <div class="container" style="margin-top: 30px;">
             <div class="row justify-content-center">
                 <!-- <button class="buttonhome register mb-sm-0 mb-3">
                 Register with Devfolio2
@@ -158,10 +158,6 @@
               <button class="buttonhome">27th-28th March, 2021</button>
             </div>
           </div>
-          <div class="outer">
-            <div class="polygon"></div>
-            <div class="why_us"></div>
-          </div>
         </div>
         <div>
         
@@ -174,7 +170,9 @@
         </script>
       </section>
 
-      <section id="about_hackowasp">
+      <div id="about_hackowasp" style="position: relative; top: -70px;"></div>
+
+      <section>
         <div class="light">
           <div class="heading-hacko">
             <h1 class="ml9">
@@ -186,7 +184,7 @@
           <div class="container">
             <div class="row justify-content-center align-items-center" data-aos="fade-up"
             data-aos-anchor-placement="top-center">
-              <div class="col-12 col-sm-5 mt-4">
+              <div class="col-lg-5 mt-4">
 
                 <div class="mobile-wrapper">
                   <iframe width="100%" 
@@ -196,16 +194,9 @@
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                    allowfullscreen></iframe>
                 </div>
-                <!-- <iframe
-                  height="300vh"
-                  width="80%"
-                  src="https://www.youtube.com/embed/vQRNIuac-HM"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe> -->
+
               </div>
-              <div class="col">
+              <div class="col-lg-7">
                 <p class="aboutpara">
                   HackOWASP is the annual Hackathon organized by OWASP Thapar Student Chapter, TIET, Patiala. Carrying the legacy forward, 
                   the third edition of HackOWASP, based on the theme ‘FinTech’, gives an opportunity to all the young innovative minds to 
@@ -269,83 +260,25 @@
               </div>
               <div class="col-sm-1 my-auto">
                 <div class="d-flex justify-content-start">
-                  <!-- <div>
-                  <h2><b>O</b>pen</h2>
-                  <h2><b>W</b>eb</h2>
-                  <h2><b>S</b>ecurity and</h2>
-                  <em style="display: inline-flex">,and</em>
-                  <h2><b>A</b>pplication</h2>
-                  <h2><b>P</b>roject</h2>
-                </div> -->
+
                   <div>
                     <div class="bracket_right"></div>
                     <div class="bracket_left"></div>
                   </div>
                 </div>
-                <!-- </div> -->
-                <!-- </div> -->
+
               </div>
             </div>
-            <!-- </div> -->
           </div>
-          <!-- </div> -->
         </div>
       </section>
         <section id="benefits_of_hackowasp">
           <div id="benefits">
-            <div id="heading" data-aos="fade-up"
+            <div id="benefits-heading" data-aos="fade-up"
             data-aos-anchor-placement="top-center">
-              <svg class="intro" viewbox="0 0 200 86">
-                <!-- <text
-                  text-anchor="start"
-                  x="10"
-                  y="30"
-                  class="text text-stroke"
-                  clip-path="url(#text1)"
-                >
-                  Benefits Of
-                </text> -->
-                <text
-                  text-anchor="start"
-                  x="10"
-                  y="50"
-                  class="text text-stroke"
-                  clip-path="url(#text2)"
-                >
-                Benefits Of HackOwasp
-                </text>
-                <!-- <text
-                  text-anchor="start"
-                  x="10"
-                  y="30"
-                  class="text text-stroke text-stroke-2"
-                  clip-path="url(#text1)"
-                >
-                  Benefits Of
-                </text> -->
-                <text
-                  text-anchor="start"
-                  x="10"
-                  y="50"
-                  class="text text-stroke text-stroke-2"
-                  clip-path="url(#text2)"
-                >
-                Benefits Of HackOwasp
-                </text>
-                <defs>
-                  <!-- <clipPath id="text1">
-                    <text text-anchor="start" x="10" y="30" class="text">
-                      Benefits Of
-                    </text>
-                  </clipPath> -->
-                  <clipPath id="text2">
-                    <text text-anchor="start" x="10" y="50" class="text">
-                      Benefits Of HackOwasp
-                    </text>
-                  </clipPath>
-                </defs>
-              </svg>
+              <h1>Benefits Of <span id="heading-benefits">HackOwasp</span> </h1>
             </div>
+
             <div id="content" data-aos="fade-up"
             data-aos-anchor-placement="top-center">
               <div id="card">
@@ -603,7 +536,8 @@
           </div>
         </div>
       </section> 
-      <section id="problemStatements" data-aos="fade-up"
+      <div id="problemStatements" style="position: relative; top: -70px;"></div>
+      <section data-aos="fade-up"
       data-aos-anchor-placement="top-center">
         <div class="light">
           <h1 class="darkHeads">PROBLEM STATEMENTS</h1>
@@ -618,7 +552,10 @@
           <script src="assets/js/DivScripts.js"></script>
         </div>
       </section>
-      <section id="prizes" data-aos="fade-up"
+
+      <div id="prizes" style="position: relative; top: -70px;"></div>
+
+      <section data-aos="fade-up"
       data-aos-anchor-placement="top-center">
         <div class="dark">
           <h1 class="divHeads">PRIZES</h1>
@@ -730,7 +667,10 @@
           </div>
         </div>
       </section> -->
-      <section id="judges_speakers" data-aos="fade-up"
+
+      <div id="judges_speakers" style="position: relative; top: -70px;"></div>
+
+      <section data-aos="fade-up"
       data-aos-anchor-placement="top-center">
         <div class="light">
           <h1 class="darkHeads">JUDGES AND SPEAKERS</h1>
@@ -746,13 +686,15 @@
         </div>
       </section>
 
-      <section id="sponsors">
+      <div id="sponsors" style="position: relative; top: -70px;"></div>
+
+      <section>
        
 <!-- <div class="sponsors_wrapper"> -->
 <div class="wrapper" style='background-color:#1f2833'  data-aos="fade-up"
 data-aos-anchor-placement="top-center">
 
-	<!-- <h2><strong>Our Sponsors<span>( 4 )</span></strong></h2> -->
+	<!-- <h2><strong>Our Sponsors<span>( 4 )</span></strong></h2>-->
 	<h2><strong>Title Sponsors<span></span></strong></h2>
 
 	<div class="cards" >
@@ -807,87 +749,11 @@ data-aos-anchor-placement="top-center">
 
         
 	</div>
-<!-- 
-	<h2><strong>SILVER SPONSERS</strong></h2>
-    <div class="cards">
-	
-		<figure class="card">
-
-			<img src="https://media-exp1.licdn.com/dms/image/C560BAQFBMgINjHKmdw/company-logo_200_200/0/1590376762022?e=1619049600&v=beta&t=JqPYpwAlyBfPMnGof8Cfr-ayAyv7fX3kphFBqgYQmKU" />
-
-			<figcaption>Dota 2</figcaption>
-
-		</figure>
-
-		<figure class="card">
-
-			<img src="https://media-exp1.licdn.com/dms/image/C560BAQFBMgINjHKmdw/company-logo_200_200/0/1590376762022?e=1619049600&v=beta&t=JqPYpwAlyBfPMnGof8Cfr-ayAyv7fX3kphFBqgYQmKU" />
-
-			<figcaption>Stick Fight</figcaption>
-
-		</figure>
-
-		<figure class="card">
-
-			<img src="https://media-exp1.licdn.com/dms/image/C560BAQFBMgINjHKmdw/company-logo_200_200/0/1590376762022?e=1619049600&v=beta&t=JqPYpwAlyBfPMnGof8Cfr-ayAyv7fX3kphFBqgYQmKU" />
-
-			<figcaption>Minion Masters</figcaption>
-
-		</figure>
-
-		<figure class="card">
-
-			<img src="https://media-exp1.licdn.com/dms/image/C560BAQFBMgINjHKmdw/company-logo_200_200/0/1590376762022?e=1619049600&v=beta&t=JqPYpwAlyBfPMnGof8Cfr-ayAyv7fX3kphFBqgYQmKU" />
-
-			<figcaption>KoseBoz!</figcaption>
-
-        </figure>
-        <div> -->
 
 </div>
 
       </section>
-      <!-- <section id="sponsors">
-        <div class="light">
-          <h1 class="darkHeads">SPONSORS</h1>
-          <h1 class="ml1">
-            <span class="text-wrapper">
-              <span class="line line1"></span>
-              <span class="letters">COMING SOON</span>
-              <span class="line line2"></span>
-            </span>
-          </h1>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-          <script src="assets/js/DivScripts.js"></script>
-        </div>
-      </section> -->
-      
 
-      <!-- About Owasp -->
-      <!-- <section id="about_hackowasp">
-        <div class="container-fluid">
-          <div class="row left owasp_about">
-            <div class="col-md-6 image object-center text-center">
-              <iframe
-                src="https://www.youtube.com/embed/vQRNIuac-HM"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="col-md-6 right abouttext">
-              <h1 class="aboutheading">ABOUT HACKOWASP</h1>
-              <p class="aboutpara">
-                Owasp Thapar Student Chapter is an elite coding society where
-                like-minded people collectively work on enhancing their skills.
-                We organize various workshops, tech-talks, hackathons and other
-                coding events, online and offline, to spread our mission of
-                collective learning.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> -->
       <section id="contactus_prevEvents" >
         <div class="slide-container container-fluid" data-aos="fade-up"
         data-aos-anchor-placement="top-center">
@@ -1083,7 +949,7 @@ data-aos-anchor-placement="top-center">
           </div>
 
           <div class="gallery-button-div">
-            <button class="gallery-button">Open Gallery</button>
+            <button class="aboutbutton" style="margin: 40px 0px;">Open Gallery</button>
           </div>
         </div>
 
@@ -1205,7 +1071,7 @@ data-aos-anchor-placement="top-center">
     </div>
   </main>
 <!-- ------modal delayed------ -->
-<script>
+<!-- <script>
   const link = document.createElement('button') 
   link.classList.add('swal-button')
   link.innerHTML = "<a href='https://discord.gg/5z8DKTfcs5' target='_blank'><span style='color: #fff;'>Join Now!</span></a>"
@@ -1218,7 +1084,7 @@ data-aos-anchor-placement="top-center">
       button : false
   }) 
       }, 3000);
-</script>
+</script> -->
 
 
 <!-- *********LOADER********* -->

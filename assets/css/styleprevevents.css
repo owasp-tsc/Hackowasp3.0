@@ -225,8 +225,7 @@
   z-index: 99;
 }
 
-@media only screen and (max-width:576px )
-{
+@media only screen and (max-width: 576px) {
   .clash-card {
     width: 300px;
   }
@@ -393,7 +392,7 @@
   position: relative;
   font-weight: 200;
   font-size: 4em;
-  font-family: 'poppins-med';
+  font-family: "poppins-med";
 }
 
 .heading-prev-events .ml9 .text-wrapper {
@@ -415,24 +414,18 @@ a {
   text-decoration: none;
 }
 
-.gallery-button {
-  background-color: #1f2833;
-  border: none;
-  color: white;
-  padding: 15px 60px;
+.aboutbutton{
   transition: background-color 0.5s;
-  letter-spacing: 2px;
-  margin: 40px 0;
-  border-radius: 50px 15px;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px;
+  color:rgb(255, 204, 0) !important;
 }
 
-.gallery-button:focus {
+.aboutbutton:focus{
   outline: none;
 }
 
-.gallery-button:hover {
-  background-color: #ffa73c;
+.aboutbutton:hover{
+  background-color: rgb(255, 204, 0);
+  color: white !important;
 }
 
 /*---Contacts---*/
@@ -471,14 +464,14 @@ a {
 
 .contact-right-elements .fab,
 .contact-right-elements .fas {
-  color: #EFCA9E;
+  color: #efca9e;
   transition: color 0.5s;
   font-size: 45px;
 }
 
 .contact-right-elements .fab:hover,
 .contact-right-elements .fas:hover {
-  color: #EFCA9E;
+  color: #efca9e;
 }
 
 .contact-right-elements p {
@@ -507,7 +500,7 @@ a {
 }
 
 .contact-main-heading {
-  color: #EFCA9E;
+  color: #efca9e;
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
@@ -555,6 +548,9 @@ a {
   }
   .contact-right {
     text-align: center;
+  }
+  .contact-left-image {
+    margin: 50px 0px;
   }
   .socialmedia {
     justify-content: center;
