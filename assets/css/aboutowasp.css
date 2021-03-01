@@ -51,11 +51,19 @@
 }
 
 /******* MEDIA QUERIES *********/
+@media All and (max-width: 1025px) {
+  .aboutpara {
+    padding: 2.5rem 2rem;
+  }
+}
 @media All and (max-width: 990px) {
   .aboutbutton {
     top: -2.5%;
     left: 1%;
     margin-top: 2%;
+  }
+  .mobile-wrapper {
+    width: 70%;
   }
 }
 
@@ -86,6 +94,9 @@
     text-align: center;
     margin-left: -27%;
     margin-top: -10%;
+  }
+  iframe {
+    height: 200px;
   }
 }
 
