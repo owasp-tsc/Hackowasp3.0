@@ -185,7 +185,9 @@ body {
   font-weight: bold;
   border: 2px solid transparent;
   border-radius: 3px;
+  cursor: pointer;
 }
+
 
 /* .register {
   margin-right: 20px;
