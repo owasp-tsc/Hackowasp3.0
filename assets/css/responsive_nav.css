@@ -57,7 +57,7 @@ a {
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: black;
-  z-index: 100000;
+  z-index: 1000;
   justify-content: space-between;
 }
 .et-hero-tabs-container a {
