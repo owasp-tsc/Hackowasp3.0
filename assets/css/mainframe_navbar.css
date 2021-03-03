@@ -66,12 +66,6 @@ body {
 }
 
 .mainframe {
-
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  justify-content: center;
-  justify-items: center;
   padding-top: 130px;
   height: 100vh;
   text-align: center;
@@ -133,12 +127,13 @@ body {
   }
 }
 @media only screen and (max-width: 650px) {
+  
   .ml10 {
     font-size: 1.3em;
   }
 
   .hackowasplogo {
-    width: 80%;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -147,7 +142,7 @@ body {
   }
 
   .hackowasplogo {
-    width: 80%;
+    width: 90%;
   }
   .custom_navbar .nav-links a {
     font-size: 1rem;
@@ -169,8 +164,8 @@ body {
   transform-origin: 0 0;
 }
 .buttonhome {
-  width: 304px;
-  height: 43px;
+  width: 312px;
+  height: 44px;
   color: #27333f;
   background-color: #fff;
   justify-self: center;
@@ -200,6 +195,36 @@ body {
 
   .ml10 {
     margin-bottom: 5vh;
+  }
+}
+@media only screen and (max-width: 1025px){
+  .mainframe{
+    padding-top: 340px;
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .mainframe{
+    padding-top: 220px;
+  }
+}
+
+@media only screen and (max-width: 415px){
+  .mainframe{
+    padding-top: 160px;
+  }
+}
+
+
+@media only screen and (max-width: 376px){
+  .mainframe{
+    padding-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 361px){
+  .mainframe{
+    padding-top: 130px;
   }
 }
 
