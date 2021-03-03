@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.ttf");
+  }
 :focus {
     outline: none;
 }
@@ -21,7 +25,9 @@ div + div {
     line-height: 1.4em;
     font-size: 1.1em;
     color: #9e9e9e;
+    font-family: 'poppins-med';
 }
+
 /*
 .faq-title {
     font-size: 2em;
@@ -49,8 +55,9 @@ div.seperator {
 
 summary {
     color: white;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: bold;
+    font-family: 'poppins-med';
     cursor: pointer;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
