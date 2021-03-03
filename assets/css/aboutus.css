@@ -1,16 +1,10 @@
 .aboutus {
   background-color: #24282f;
-
   padding: 50px 0px;
   font-family: "Poppins";
   width: 100%;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
 }
-/* .acronym {
-    white-space: normal;
-} */
+
 .aboutbutton {
   padding: 10px 50px;
   border-radius: 30px;
@@ -56,9 +50,6 @@
 
 .aboutus_outer_card {
   background-color: #24282f;
-
-  /* transform-style: preserve-3d; */
-  /* min-height: 80vh; */
   width: 80%;
   margin: auto;
   height: 100%;
@@ -95,15 +86,3 @@
   }
 }
 
-/* .bracket_right_up {
-  width: 10px;
-  height: 50px;
-  transform: skew(20deg);
-  background: #555;
-}
-.bracket_right_down {
-  width: 10px;
-  height: 50px;
-  transform: skew(-20deg);
-  background: #555;
-} */
