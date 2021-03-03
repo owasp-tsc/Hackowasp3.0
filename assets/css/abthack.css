@@ -1,0 +1,139 @@
+@font-face {
+  font-family: poppins-med;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+.heading-hacko {
+  margin-bottom: 30px;
+}
+
+.heading-hacko .ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+  font-family: "poppins-med";
+}
+
+.heading-hacko .ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.heading-hacko .ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.abthck {
+  color: black !important;
+  font-family: "poppins-med";
+}
+#abthack {
+  padding: 2rem;
+}
+#abthack .row {
+  background-color: white;
+  padding: 1rem;
+  margin: 0;
+  font-family: "poppins-med";
+}
+#abthack .row .col-sm iframe {
+  margin-left: 5rem;
+  margin-bottom: 2vh;
+}
+#abthack .row .col p {
+  margin-right: 5rem;
+}
+
+.mobile-wrapper iframe {
+  border: 12px #24282f solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+@keyframes hover {
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes hover-shadow {
+  0% {
+    transform: translateY(6px);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(3px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(6px);
+    opacity: 0.4;
+  }
+}
+.mobile-wrapper {
+  margin: 5vh 3vw;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+}
+.mobile-wrapper:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  /* W3C */
+  transition-duration: 0.3s;
+  transition-property: transform opacity;
+}
+.mobile-wrapper {
+  transform: translateY(-6px);
+  animation-name: hover;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.mobile-wrapper:before {
+  opacity: 0.4;
+  transform: translateY(6px);
+  animation-name: hover-shadow;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@media only screen and (max-width: 770px) {
+  .mobile-wrapper {
+    margin: 5vh 13vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .heading-hacko .ml9 {
+    position: relative;
+    font-weight: 200;
+    font-size: 2.2em;
+    font-family: "poppins-med";
+  }
+}

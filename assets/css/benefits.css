@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "The Bold Font";
+  src: url("../fonts/The\ Bold\ Font\ 700.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#benefits_of_hackowasp {
+  width: auto;
+}
+#benefits {
+  height: auto;
+  width: auto;
+  padding-bottom: 100px;
+  background: #ffffff;
+}
+
+/* #heading {
+  height: 9em;
+  font-family: "The Bold Font";
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+} */
+
+/* svg.intro { */
+/* background: linear-gradient(135deg, #aa3bb1, #582a7e); */
+/* max-width: 800px;
+  position: relative;
+  top: 56%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+svg.intro .text {
+  display: none;
+}
+svg.intro.go .text {
+  font-family: "The Bold Font";
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+}
+svg.intro.go .text-stroke {
+  fill: none;
+  stroke: rgb(255, 102, 0);
+  stroke-width: 1.2px;
+  stroke-dashoffset: -900;
+  stroke-dasharray: 900;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  -webkit-animation: dash 2s ease-in-out forwards;
+  animation: dash 2.5s ease-in-out forwards;
+}
+svg.intro.go .text-stroke:nth-child(2) {
+  stroke: rgb(255, 145, 0);
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+svg.intro.go .text-stroke:nth-child(3) {
+  stroke: rgb(255, 111, 0);
+  stroke-width: 0.8px;
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+svg.intro.go .text-stroke-2 {
+  stroke: #ff8a00;
+  stroke-width: 5;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+@-webkit-keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+} */
+#benefits-heading {
+  font-family: "Poppins";
+  width: 100%;
+  text-align: center;
+  margin-bottom: 75px;
+  padding-top: 50px;
+  color: #24282f;
+  word-spacing: 6px;
+}
+#benefits-heading h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+#heading-benefits {
+  color: #fc9803;
+}
+#content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#card {
+  height: auto;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 1vh 0.1vw;
+  flex-basis: 33%;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#card2 {
+  height: auto;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 1vh 0.1vw;
+  flex-basis: 33%;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+#card .image,
+#card2 .image {
+  margin: 0 0;
+  margin-bottom: 20px;
+}
+#card .image img {
+  height: 20em;
+  margin: auto;
+}
+#card2 .image img {
+  height: 18em;
+}
+#card .con {
+  font-family: "poppins-med", sans-serif;
+  margin: 0 6em;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+#card2 .con {
+  font-family: "poppins-med", sans-serif;
+  margin: 0 6em;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+@media (max-width: 1100px) {
+  #benefits {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  #content {
+    flex-direction: column;
+  }
+  #card {
+    flex-basis: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  #card2 {
+    margin-bottom: 30px;
+  }
+  #card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #card2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  #card,
+  #card2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 850px) {
+  #benefits {
+    height: auto;
+  }
+  #benefits #content {
+    flex-direction: column;
+  }
+  #card {
+    flex-basis: 100%;
+    margin-bottom: 70px;
+    flex-direction: column;
+  }
+  #card2 {
+    margin-bottom: 70px;
+    flex-direction: column;
+  }
+
+  #benefits-heading h1 {
+    font-size: 2.5rem;
+  }
+  #card .image img {
+    height: 18em;
+    margin: auto;
+  }
+  #card2 .image img {
+    height: 14em;
+  }
+}
+@media (max-width: 500px) {
+  #card,
+  #card2 {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  .con {
+    margin: 0 40px !important;
+  }
+}
