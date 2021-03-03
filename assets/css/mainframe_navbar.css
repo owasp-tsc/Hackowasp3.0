@@ -212,6 +212,8 @@ body {
 .swal-button {
   background-color: #8c9eff;
   margin-bottom: 5vh;
+  font-family: "poppins-med";
+  letter-spacing: 1px;
 }
 
 .swal-modal {
@@ -222,6 +224,8 @@ body {
 
 .swal-text {
   color: #fff !important;
+  font-family: "poppins";
+  letter-spacing: 1px;
 }
 
 div.starfield {
