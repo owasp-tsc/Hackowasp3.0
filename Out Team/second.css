@@ -8,6 +8,7 @@
   margin: 0 auto;
   list-style: none;
   text-align: center;
+  justify-items: center;
 }
 .grid1 figure1 {
   position: relative;
@@ -120,12 +121,12 @@ figure1.effect-terry figcaption1::after {
   transform: translate3d(-15px, -15px, 0);
 }
 
-figure1.effect-terry img{
+figure1.effect-terry img {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
 figure1.effect-terry p a {
-      padding-top: 250%;
+  padding-top: 250%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
@@ -188,13 +189,13 @@ figure1.effect-terry:hover p a {
 }
 
 figure1.effect-terry:hover p a:first-child {
-          padding-top: 250%;
+  padding-top: 250%;
 
   -webkit-transition-delay: 0.025s;
   transition-delay: 0.025s;
 }
 
- @media screen and (max-width: 50em) {
+@media screen and (max-width: 50em) {
   .content {
     padding: 0 10px;
     text-align: center;
@@ -209,7 +210,7 @@ figure1.effect-terry:hover p a:first-child {
 @media screen and (max-width: 1250px) {
   .grid1 {
     display: grid;
-    grid-template-columns: repeat(2, .5fr);
+    grid-template-columns: repeat(2, 0.5fr);
   }
 }
 @media screen and (max-width: 768px) {

@@ -12,7 +12,8 @@ a {
   width: 100%;
   z-index: 1000000;
   width: 100%;
+  opacity: 1;
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: black;
+  /* background: black; */
 }

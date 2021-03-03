@@ -1,7 +1,3 @@
-
-
-
-
 *,
 *:after,
 *:before {
@@ -14,7 +10,7 @@ h1 {
   margin-bottom: 80px;
   font-size: 3.5rem;
   text-transform: uppercase;
-  color: #EFCA9E;
+  color: #efca9e;
 }
 
 .ml15 {
@@ -33,8 +29,8 @@ h3 {
   margin-top: 100px;
   text-align: center;
   margin-bottom: 50px;
-/*  font-family: Ubuntu, sans-serif;*/
-        font-family: "Century Gothic", "Lato", sans-serif;
+  /*  font-family: Ubuntu, sans-serif;*/
+  font-family: "Century Gothic", "Lato", sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -42,18 +38,26 @@ h3 {
 }
 
 body {
-/*  background-color: #1f2833;*/
-/*  background-color: rgb(10, 30, 47);
+  /*  background-color: #1f2833;*/
+  /*  background-color: rgb(10, 30, 47);
     */
-    background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: #fff;
   font-weight: 400;
-/*  font-family: "Raleway", Arial, sans-serif;*/
-    font-family: "Century Gothic", "Lato", sans-serif;
-    margin: 0 !important;
+  /*  font-family: "Raleway", Arial, sans-serif;*/
+  font-family: "Century Gothic", "Lato", sans-serif;
+  margin: 0 !important;
 }
 
 a {
@@ -179,7 +183,7 @@ figure.effect-terry {
 }
 
 figure.effect-terry figcaption {
-  padding: .5em;
+  padding: 0.5em;
 }
 
 figure.effect-terry figcaption::before,
@@ -209,23 +213,21 @@ figure.effect-terry figcaption::after {
   -webkit-transform: translate3d(-15px, -15px, 0);
   transform: translate3d(-15px, -15px, 0);
 }
-  figure.effect-terry figcaption::before {
-    right: 0;
-    bottom: 0;
-    border-width: 0 70px 60px 0;
-    -webkit-transform: translate3d(70px, 60px, 0);
-    transform: translate3d(70px, 60px, 0);
-  }
+figure.effect-terry figcaption::before {
+  right: 0;
+  bottom: 0;
+  border-width: 0 70px 60px 0;
+  -webkit-transform: translate3d(70px, 60px, 0);
+  transform: translate3d(70px, 60px, 0);
+}
 
-figure.effect-terry img{
-
+figure.effect-terry img {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-terry p a {
-    
-    padding-top: 250%;
+  padding-top: 250%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
@@ -257,21 +259,19 @@ figure.effect-terry p a {
   display: block;
   margin-bottom: 0.5em;
   color: #fff;
+  /* padding-top: 200%: */
   opacity: 0;
-    padding-top: 200%:
   -webkit-transform: translate3d(200px, 0, 0);
   transform: translate3d(200px, 0, 0);
 }
 
 figure.effect-terry p a:hover,
 figure.effect-terry p a:focus {
-    
   color: #66fcf1;
 }
 
 figure.effect-terry:hover figcaption::before,
 figure.effect-terry:hover figcaption::after {
-    
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -282,7 +282,6 @@ figure.effect-terry:hover img {
 
 figure.effect-terry:hover h2,
 figure.effect-terry:hover p a {
-    
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -292,10 +291,10 @@ figure.effect-terry:hover p a {
 }
 
 figure.effect-terry:hover p a:first-child {
-   padding-top: 250%;
-    -webkit-transition-delay: 0.025s;
+  padding-top: 250%;
+  -webkit-transition-delay: 0.025s;
   transition-delay: 0.025s;
-} 
+}
 @media screen and (max-width: 50em) {
   .content {
     padding: 0 10px;
@@ -358,4 +357,3 @@ figure.effect-terry:hover p a:first-child {
     margin-block-end: 0 !important;
   }
 }
-
