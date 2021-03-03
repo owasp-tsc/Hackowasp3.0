@@ -5,6 +5,7 @@
 :focus {
     outline: none;
 }
+
 /*
 body {
     background-color: #c8d9e0;
@@ -67,6 +68,19 @@ summary {
     user-select: none;
 }
 
+@media only screen and (max-width: 900px) {
+    summary {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 901px)
+{
+    .faq-list {
+        width: 55em;
+    }
+}
+
 summary:hover {
     color: #ffa73c;
     transition: all 0.3s ease;
@@ -110,7 +124,6 @@ details[open] summary:after {
 }
 */
 .faq-list {
-    width: 55em;
     margin: 1em auto;
     padding: 2em 0;
 }
@@ -127,8 +140,9 @@ summary:after {
     float: left;
     font-size: 1.8em;
     font-weight: bold;
-    margin: -0.3em 0.25em 0 0;
+    margin: -0.3em 0.1em 20px 0;
     padding: 0;
     text-align: center;
     width: 25px;
+    display: block;
 }
