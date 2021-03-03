@@ -1,3 +1,7 @@
+
+
+
+
 *,
 *:after,
 *:before {
@@ -49,6 +53,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   font-weight: 400;
 /*  font-family: "Raleway", Arial, sans-serif;*/
     font-family: "Century Gothic", "Lato", sans-serif;
+    margin: 0 !important;
 }
 
 a {
@@ -84,6 +89,8 @@ a:focus {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-self: center;
+  justify-content: center;
+  justify-items: center;
   clear: none;
   margin: 0 auto;
   list-style: none;
