@@ -172,7 +172,7 @@ figure.effect-terry {
 }
 
 figure.effect-terry figcaption {
-  padding: 1em;
+  padding: .5em;
 }
 
 figure.effect-terry figcaption::before,
@@ -210,8 +210,15 @@ figure.effect-terry figcaption::after {
     transform: translate3d(70px, 60px, 0);
   }
 
-figure.effect-terry img,
+figure.effect-terry img{
+
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
 figure.effect-terry p a {
+    
+    padding-top: 250%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
@@ -236,25 +243,28 @@ figure.effect-terry p {
   clear: both;
   text-align: left;
   text-transform: none;
-  font-size: 111%;
+  font-size: 170%;
 }
 
 figure.effect-terry p a {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   color: #fff;
   opacity: 0;
-  -webkit-transform: translate3d(90px, 0, 0);
-  transform: translate3d(90px, 0, 0);
+    padding-top: 200%:
+  -webkit-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
 }
 
 figure.effect-terry p a:hover,
 figure.effect-terry p a:focus {
+    
   color: #66fcf1;
 }
 
 figure.effect-terry:hover figcaption::before,
 figure.effect-terry:hover figcaption::after {
+    
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -265,6 +275,7 @@ figure.effect-terry:hover img {
 
 figure.effect-terry:hover h2,
 figure.effect-terry:hover p a {
+    
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -274,24 +285,10 @@ figure.effect-terry:hover p a {
 }
 
 figure.effect-terry:hover p a:first-child {
-  -webkit-transition-delay: 0.025s;
+   padding-top: 250%;
+    -webkit-transition-delay: 0.025s;
   transition-delay: 0.025s;
-}
-
-figure.effect-terry:hover p a:nth-child(2) {
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
-}
-
-figure.effect-terry:hover p a:nth-child(3) {
-  -webkit-transition-delay: 0.075s;
-  transition-delay: 0.075s;
-}
-
-figure.effect-terry:hover p a:nth-child(4) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
+} 
 @media screen and (max-width: 50em) {
   .content {
     padding: 0 10px;

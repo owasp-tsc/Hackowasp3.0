@@ -137,8 +137,12 @@ figure2.effect-terry figcaption2::after {
   transform: translate3d(-10px, -10px, 0);
 }
 
-figure2.effect-terry img,
+figure2.effect-terry img{
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;  
+}
 figure2.effect-terry p a {
+    padding-top: 250%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
@@ -297,21 +301,9 @@ figure2.effect-terry:hover p a {
 }
 
 figure2.effect-terry:hover p a:first-child {
+    
+    padding-top: 250%;
   -webkit-transition-delay: 0.025s;
   transition-delay: 0.025s;
 }
-
-figure2.effect-terry:hover p a:nth-child(2) {
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
-}
-
-figure2.effect-terry:hover p a:nth-child(3) {
-  -webkit-transition-delay: 0.075s;
-  transition-delay: 0.075s;
-}
-
-figure2.effect-terry:hover p a:nth-child(4) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
+ 

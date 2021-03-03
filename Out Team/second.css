@@ -120,8 +120,12 @@ figure1.effect-terry figcaption1::after {
   transform: translate3d(-15px, -15px, 0);
 }
 
-figure1.effect-terry img,
+figure1.effect-terry img{
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
 figure1.effect-terry p a {
+      padding-top: 250%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
@@ -184,25 +188,13 @@ figure1.effect-terry:hover p a {
 }
 
 figure1.effect-terry:hover p a:first-child {
+          padding-top: 250%;
+
   -webkit-transition-delay: 0.025s;
   transition-delay: 0.025s;
 }
 
-figure1.effect-terry:hover p a:nth-child(2) {
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
-}
-
-figure1.effect-terry:hover p a:nth-child(3) {
-  -webkit-transition-delay: 0.075s;
-  transition-delay: 0.075s;
-}
-
-figure1.effect-terry:hover p a:nth-child(4) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-@media screen and (max-width: 50em) {
+ @media screen and (max-width: 50em) {
   .content {
     padding: 0 10px;
     text-align: center;
