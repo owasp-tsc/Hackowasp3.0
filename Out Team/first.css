@@ -1,0 +1,309 @@
+
+.content2 {
+  margin: 0 100px;
+}
+
+.content2 > h2 {
+  clear: both;
+  margin: 0;
+  padding: 2em 1% 0;
+  color: #1f2833;
+  font-weight: 800;
+  font-size: 1.0em;
+}
+
+.content2 > h2:first-child {
+  padding-top: 1em;
+}
+.grid2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-self: center;
+  clear: none;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+.grid2 figure2 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 50px 50px;
+  min-width: 120px;
+  max-width: 300px;
+  max-height: 440px;
+  height: auto;
+  background: #66fcf1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid2 figure2 img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid2 figure2 figcaption2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid2 figure2 figcaption2::before,
+.grid2 figure2 figcaption2::after {
+  pointer-events: none;
+}
+
+.grid2 figure2 figcaption2,
+.grid2 figure2 figcaption2 > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+
+.grid2 figure2 figcaption2 > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid2 figure2 h2 {
+  word-spacing: 2px;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.grid2 figure2 h2 span {
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.grid2 figure2 h2,
+.grid2 figure2 p {
+  margin: 0;
+}
+
+.grid2 figure2 p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+figure2.effect-terry {
+  background: #1f2833;
+}
+
+figure2.effect-terry figcaption2 {
+  padding: .5em;
+}
+
+figure2.effect-terry figcaption2::before,
+figure2.effect-terry figcaption2::after {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  border-style: solid;
+  border-color: rgba(16, 16, 16, 0.6);
+  content: "";
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+figure2.effect-terry figcaption2::before {
+  right: 0;
+  bottom: 0;
+  border-width: 0 40px 40px 0;
+  -webkit-transform: translate3d(40px, 40px, 0);
+  transform: translate3d(40px, 40px, 0);
+}
+
+figure2.effect-terry figcaption2::after {
+  top: 0;
+  left: 0;
+  border-width: 10px 0 0 10px;
+  -webkit-transform: translate3d(-10px, -10px, 0);
+  transform: translate3d(-10px, -10px, 0);
+}
+
+figure2.effect-terry img{
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;  
+}
+figure2.effect-terry p a {
+    padding-top: 250%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure2.effect-terry img {
+  opacity: 0.85;
+}
+
+figure2.effect-terry h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.4em 10px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(30%, 0, 0);
+  transform: translate3d(30%, 0, 0);
+}
+
+figure2.effect-terry p {
+  float: right;
+  clear: both;
+  text-align: left;
+  text-transform: none;
+  font-size: 80%;
+}
+
+figure2.effect-terry p a {
+  display: block;
+  margin-bottom: 1em;
+  color: #fff;
+  opacity: 0;
+  -webkit-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+}
+
+@media screen and (max-width: 50em) {
+  .content {
+    padding: 0 15px;
+    text-align: center;
+    margin: 0px;
+  }
+  .grid2 figure2 {
+    display: inline-block;
+    float: none;
+    margin: 50px 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 769px) and (min-width: 760px)
+{
+  .grid2 {
+    margin-left: 29%;
+  }
+
+  .grid2 figure2 {
+    max-width: 240px;
+  }
+}
+@media screen and (max-width: 770px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* margin-left: 20%; */
+  }
+
+  figure2.effect-terry {
+    margin-bottom: 50px !important;
+  }
+  figure2.effect-terry h2 {
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+  }
+}
+@media screen and (max-width: 200px) {
+  figure2.effect-terry h2 {
+    -webkit-transform: translate3d(10%, 0, 0);
+    transform: translate3d(10%, 0, 0);
+  }
+}
+@media screen and (max-width: 500px) {
+  figure2.effect-terry h2 {
+    -webkit-transform: translate3d(40%, 0, 0);
+    transform: translate3d(40%, 0, 0);
+  }
+  figure2.effect-terry h2 {
+    font-size: 12px;
+  }
+  figure2.effect-terry h2 span {
+    font-size: 10px;
+  }
+  figure2.effect-terry figcaption2::before {
+    right: 0;
+    bottom: 0;
+    border-width: 0 40px 40px 0;
+    -webkit-transform: translate3d(70px, 60px, 0);
+    transform: translate3d(70px, 60px, 0);
+  }
+  figure2.effect-terry p i {
+    font-size: 20px;
+    margin-left: 20%;
+  }
+  p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+figure2.effect-terry p a:hover,
+figure2.effect-terry p a:focus {
+  color: #66fcf1;
+}
+
+figure2.effect-terry:hover figcaption2::before,
+figure2.effect-terry:hover figcaption2::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure2.effect-terry:hover img {
+  opacity: 0.6;
+}
+
+figure2.effect-terry:hover h2,
+figure2.effect-terry:hover p a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure2.effect-terry:hover p a {
+  opacity: 1;
+}
+
+figure2.effect-terry:hover p a:first-child {
+    
+    padding-top: 250%;
+  -webkit-transition-delay: 0.025s;
+  transition-delay: 0.025s;
+}
+ 
