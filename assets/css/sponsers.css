@@ -53,6 +53,8 @@ h2,
 h2 strong,
 h2 span {
   vertical-align: middle;
+  text-align: center;
+  border-radius: 10px;
 }
 body {
   background: #24282f;
@@ -64,18 +66,18 @@ body {
 h2 {
   padding: 10px;
   padding-left: 25px;
-  color: #ccc;
+  color: white;
   margin: 0;
+  letter-spacing: 2px;
 }
 h2 strong {
   z-index: 2;
-  background: #24282f;
+  background: darkgrey;
   padding: 4px 8px;
 }
 h2 span {
   font-size: 0.7em;
-  color: #aaa;
-  margin-left: 10px;
+  color: white;
 }
 h2:after {
   content: "";

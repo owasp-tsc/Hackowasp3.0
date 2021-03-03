@@ -20,7 +20,7 @@
   }
   .light-in{
     background: url('../images/backback1.png');
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 5vh 0;
