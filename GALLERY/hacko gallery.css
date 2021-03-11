@@ -1,0 +1,145 @@
+body {
+  overflow-x: hidden;  
+  height: 100vh;
+  background-color:black;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.fake-scroll {
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 10%;
+  justify-items: end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.image {
+  position: relative;
+  width: 500px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.image:nth-child(2n) {
+  justify-self: start;
+}
+.image:nth-child(1) {
+  background-image: url("./hacko\ 1.jpg");
+}
+.image:nth-child(2) {
+  background-image: url("./hacko\ 4.jpg");
+}
+.image:nth-child(3) {
+  background-image: url("./hacko\ 5.jpg");
+}
+.image:nth-child(4) {
+  background-image: url("./hacko\ 7.jpg");
+}
+.image:nth-child(5) {
+  background-image: url("./hacko\ 8.jpg");
+}
+.image:nth-child(6) {
+  background-image: url("./hacko\ 9.jpg");
+}
+.image:nth-child(7) {
+  background-image: url("./hacko\ 10.jpg");
+}
+.image:nth-child(8) {
+  background-image: url("./hacko\ 12.jpg");
+}
+.image:nth-child(9) {
+  background-image: url("./hacko\ 16.jpg");
+}
+.image:nth-child(10) {
+  background-image: url("./hacko\ 13.jpg");
+}
+.image:nth-child(11) {
+  background-image: url("./hacko\ 18.jpg");
+}
+.image:nth-child(12) {
+  background-image: url("./hacko\ 19.jpg");
+}
+.image:nth-child(13) {
+  background-image: url("./hacko\ 20.jpg");
+}
+.image:nth-child(14) {
+  background-image: url("./hacko\ 21.jpg");
+}
+.image:nth-child(15) {
+  background-image: url("./hacko\ 22.jpg");
+}
+.image:nth-child(16) {
+  background-image: url("./hacko\ 23.jpg");
+}
+.image:nth-child(17) {
+  background-image: url("./hacko\ 25.jpg");
+}
+.image:nth-child(18) {
+  background-image: url("./hacko\ 28.jpg");
+}
+.image:nth-child(19) {
+  background-image: url("./hacko\ 29.jpg");
+}
+.image:nth-child(20) {
+  background-image: url("./hacko\ 30.jpg");
+}
+
+
+@media screen and (max-width: 1025px){
+  .image{
+    width: 420px;
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+  .image{
+    width: 450px;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .image:nth-child(2n) {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 415px){
+  .image{
+    width: 350px;
+  }
+
+}
+
+@media screen and (max-width: 376px){
+  .image{
+    width: 300px;
+  }
+
+}
+
+video
+{
+  position: fixed;
+  z-index: -1;
+  left: 5%;
+  height: 100vh;
+}
+
+
