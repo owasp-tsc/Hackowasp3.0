@@ -4,9 +4,10 @@
   src: url(../fonts/Poppins-Medium.ttf);
 }
 
-html body{
+#prizes12{
   overflow-x: hidden;
 }
+
 
 @keyframes bounce {
   0%,
@@ -110,7 +111,7 @@ html body{
 
 
 .st {
-  background-color: #d44480;
+  background-color: #ffa73c;
   font-weight: 300;
   font-size: 40px;
 }
@@ -328,7 +329,7 @@ hr{
 }
 
 .heeelo{
-  background: #d44480 !important;
+  background: #ffa73c !important;
 }
 
 .clash-card__unit-stats--barbarian {
