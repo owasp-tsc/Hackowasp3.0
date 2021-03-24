@@ -70,6 +70,15 @@
   font-size: 54px;
   word-spacing: 10px;
 }
+
+.lightHeads {
+  color: white;
+  font-weight: bold;
+  font-family: 'poppins-med';
+  font-size: 54px;
+  word-spacing: 10px;
+}
+
 .darkHeads span.probhead {
   color: #db6623;
 }
