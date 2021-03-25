@@ -4,6 +4,11 @@
   src: url(../fonts/Poppins-Medium.ttf);
 }
 
+#prizes12{
+  overflow-x: hidden;
+}
+
+
 @keyframes bounce {
   0%,
   100%,
@@ -34,6 +39,8 @@
   position: relative;
   font-weight: 200;
   font-size: 4em;
+  color: white;
+  font-family: "poppins-med";
 }
 
 .heading-prizes .ml9 .text-wrapper {
@@ -75,7 +82,7 @@
 .przimg {
   width: 100%;
   margin: 0;
-  height: 170px;
+  height: 200px;
   padding: 0;
 }
 .przimg1 {
@@ -92,7 +99,6 @@
   background-color: #1f2833;
   border-radius: 10px;
   padding: 10px 0px;
-  padding-right: 20px;
 }
 
 .firstprize {
@@ -101,15 +107,11 @@
   background-color: #1f2833;
   border-radius: 10px;
   padding: 10px 0px;
-  padding-right: 20px;
 }
 
-.firstprize {
-  padding-right: 5px !important;
-}
 
 .st {
-  background-color: #45a29e;
+  background-color: #ffa73c;
   font-weight: 300;
   font-size: 40px;
 }
@@ -117,23 +119,20 @@
 .amount {
   text-transform: uppercase;
   font-size: 15px;
-  margin-top: 10px;
   font-weight: 100;
-  color: #1a90e0;
+  color: #1F2833;
   font-family: sans-serif;
 }
 
 .amount1 {
   text-transform: uppercase;
-  margin-top: 10px;
   font-size: 20px;
   font-weight: 100;
-  color: #1a90e0;
+  color: #1F2833;
   font-family: sans-serif;
 }
 
 .cash {
-  margin-top: 10px;
   font-size: 40px;
   color: black;
   font-weight: 900;
@@ -142,7 +141,7 @@
 }
 
 .desp {
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
   font-weight: 100;
   font-size: 15px;
@@ -150,7 +149,6 @@
 }
 
 .cash1 {
-  margin-top: 10px;
   font-size: 45px;
   color: black;
   font-weight: 900;
@@ -159,11 +157,17 @@
 }
 
 .desp1 {
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
   font-weight: 100;
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
+}
+
+hr{
+  border: 2px solid #d44480;
+  color: #d44480;
+  border-radius: 100px;
 }
 
 .bouncer {
@@ -322,6 +326,10 @@
   padding: 20px;
   margin-bottom: 10px;
   font-weight: bold;
+}
+
+.heeelo{
+  background: #ffa73c !important;
 }
 
 .clash-card__unit-stats--barbarian {
@@ -521,6 +529,10 @@ a {
   color: #e2a050;
 }
 
+.mobile-prizes{
+  display: none;
+}
+
 @media only screen and (min-width: 765px) {
   .socialmedia div:first-child {
     margin-left: 0px;
@@ -534,6 +546,18 @@ a {
 
   .contact-right-elements p {
     margin-left: 20px;
+  }
+
+  .mobile-prizes{
+    display: block;
+  }
+
+  .laptop-prizes{
+    display: none;
+  }
+
+  .wrapper2{
+    top: 0px;
   }
 }
 
