@@ -1,64 +1,161 @@
-.pic-area{
-    background-image: url('../images/mainframe.gif');
-    /* background-size: 100%; */
-    background-repeat: repeat;
-    /* height: 900px; */
-    padding: 24px;
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+.judges-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 100px;
+}
+#speak-main {
+  display: none;
+}
+.jud-speak-head {
+  color: rgb(255, 204, 0);
+}
+.togglebtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.togglebtn p {
+  color: rgb(255, 204, 0);
+  font-size: 28px;
+  border: 2px solid rgb(255, 204, 0);
+  padding: 5px 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 20px;
+  transition: all 0.3s ease;
+}
+.togglebtn p:hover {
+  color: white;
+  background-color: rgb(255, 204, 0);
 }
 
-.profile-pic{
-    position: relative;
-    width: 300px!important;
-    height: 180px!important;
+.snip1336 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #141414;
+  margin-bottom: 20px;
 }
-
-.responsive-card{
-    /* width: 22rem; */
-    padding: 0px;
-    border: none;
-    width: 111%;
+.snip1336 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
-
-.responsive-row{
-    padding: 2rem;
+.snip1336 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+  width: 100%;
 }
-
-.responsive-col-md{
-    padding-left: 2rem!important;
+.snip1336 figcaption {
+  width: 100%;
+  background-color: #141414;
+  padding: 25px;
+  position: relative;
 }
-
-@media only screen and (max-width: 600px) {
-    .responsive-card{
-        width: 100%;
-        margin: 5px 0px;
-        margin-bottom: 1rem;
-    }
-
-    .responsive-row{
-        padding: 0.8rem;
-    }
-
-    .responsive-col-md{
-        padding-left: 0rem!important;
-    }
-
-    .profile-pic{
-        width: 100%!important;
-    }
+.snip1336 figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414;
 }
-
-@media only screen and (min-width: 600px) {
-    .responsive-card{
-        width: 111%;
-    }
-    .responsive-row{
-        padding: 2rem;
-    }
+.snip1336 figcaption a {
+  padding: 5px;
+  border: 1px solid rgb(255, 204, 0);
+  color: rgb(255, 204, 0);
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  margin-left: 100px;
+  display: inline-block;
+  width: 37%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
-.card-border{
-    border-top-width: 0px;
-     margin-top: 0px; 
-     border-bottom-width: 0px; 
-     border-left-width: 0px;
-     border-right-width: 0px;
+.snip1336 figcaption a:hover {
+  color: white;
+  background-color: rgb(255, 204, 0);
+}
+.snip1336 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.snip1336 .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.snip1336 h2 {
+  margin: 0 0 5px;
+  font-weight: 300;
+}
+.snip1336 h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.snip1336 p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+@media (max-width: 770px) {
+  .judges-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .snip1336 {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .judges-main {
+    grid-template-columns: 1fr;
+  }
+  .snip1336 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .snip1336 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1300px) {
+  .snip1336 {
+    margin-left: 40px !important;
+    max-width: 380px;
+  }
+}
+@media (min-width: 1400px) {
+  .snip1336 {
+    margin-left: 50px !important;
+    max-width: 400px;
+  }
 }
