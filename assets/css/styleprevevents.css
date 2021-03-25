@@ -191,10 +191,11 @@ hr{
 .prize-curve-1{
 padding: 20px 30px;
 height: auto;
-background: black;
+background: whitesmoke;
 border-radius: 0px 50px 50px 0px;
 display: flex;
 flex-direction: row-reverse;
+margin-top: 10px;
 }
 
 .prize-curve-1 .logo-prizes{
@@ -205,22 +206,32 @@ flex-direction: row-reverse;
   margin-right: 20px;
 }
 
-.prize-curve-1 .text-prizes{
+.prize-curve-1{
   text-align: right;
+  font-family: "poppins-med";
 }
+
 .prize-curve-2{
   padding: 20px 30px;
   display: flex;
   height: auto;
-  background: black;
+  background: whitesmoke;
   border-radius: 50px 0px 0px 50px;
+  margin-top: 10px;
 }
 .prize-curve-2 .text-prizes{
   text-align: left;
+  font-family: "poppins-med";
 }
+
 .other-prize-img{
   height: 80px;
   width: 80px;
+}
+
+.other-prize4-img{
+  height: 60px;
+  width: 97.8px; 
 }
 
 
