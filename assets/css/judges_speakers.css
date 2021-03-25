@@ -140,6 +140,12 @@
     margin-left: 30px;
     margin-bottom: 20px;
   }
+  .togglebtn {
+    flex-direction: column;
+  }
+  .togglebtn p {
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 400px) and (max-width: 500px) {
   .snip1336 {
