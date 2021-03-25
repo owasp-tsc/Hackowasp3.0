@@ -188,6 +188,43 @@ hr{
   -moz-animation-name: bounce;
 }
 
+.prize-curve-1{
+padding: 20px 30px;
+height: auto;
+background: black;
+border-radius: 0px 50px 50px 0px;
+display: flex;
+flex-direction: row-reverse;
+}
+
+.prize-curve-1 .logo-prizes{
+  margin-left: 20px;
+}
+
+.prize-curve-2 .logo-prizes{
+  margin-right: 20px;
+}
+
+.prize-curve-1 .text-prizes{
+  text-align: right;
+}
+.prize-curve-2{
+  padding: 20px 30px;
+  display: flex;
+  height: auto;
+  background: black;
+  border-radius: 50px 0px 0px 50px;
+}
+.prize-curve-2 .text-prizes{
+  text-align: left;
+}
+.other-prize-img{
+  height: 80px;
+  width: 80px;
+}
+
+
+
 /*--Previous Events--*/
 
 .slide-container {
