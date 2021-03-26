@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "The Bold Font";
-  src: url("../fonts/The\ Bold\ Font\ 700.ttf");
+  font-family: 'The Bold Font';
+  src: url('../fonts/The\ Bold\ Font\ 700.ttf');
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 #benefits_of_hackowasp {
   width: auto;
@@ -16,7 +16,7 @@
 }
 
 #benefits-heading {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   width: 100%;
   text-align: center;
   margin-bottom: 75px;
@@ -48,14 +48,14 @@
   flex-direction: column;
   padding-bottom: 20px;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: 50px;
   margin-right: 50px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 #card2 {
   height: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   border: 1px solid transparent;
   text-align: center;
   margin: 1vh 0.1vw;
@@ -65,7 +65,7 @@
   flex-direction: column;
   padding-bottom: 20px;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 #card .image,
 #card2 .image {
@@ -80,14 +80,14 @@
   height: 20em;
 }
 #card .con {
-  font-family: "poppins-med", sans-serif;
+  font-family: 'poppins-med', sans-serif;
   margin: 0 2em;
   font-size: 15px;
   font-weight: 600;
   text-align: center;
 }
 #card2 .con {
-  font-family: "poppins-med", sans-serif;
+  font-family: 'poppins-med', sans-serif;
   margin: 0 4em;
   font-size: 15px;
   font-weight: 600;
