@@ -192,7 +192,7 @@ hr{
 padding: 20px 30px;
 height: auto;
 background: whitesmoke;
-border-radius: 0px 50px 50px 0px;
+border-radius: 30px 30px 30px 30px;
 display: flex;
 flex-direction: row-reverse;
 margin-top: 10px;
@@ -206,9 +206,10 @@ margin-top: 10px;
   margin-right: 20px;
 }
 
-.prize-curve-1{
+.prize-curve-1 .text-prizes{
   text-align: right;
   font-family: "poppins-med";
+  padding: 30px 0px;
 }
 
 .prize-curve-2{
@@ -216,12 +217,13 @@ margin-top: 10px;
   display: flex;
   height: auto;
   background: whitesmoke;
-  border-radius: 50px 0px 0px 50px;
+  border-radius: 30px 30px 30px 30px;
   margin-top: 10px;
 }
 .prize-curve-2 .text-prizes{
   text-align: left;
   font-family: "poppins-med";
+  padding: 30px 0px;
 }
 
 .other-prize-img{
@@ -234,6 +236,15 @@ margin-top: 10px;
   width: 97.8px; 
 }
 
+.image-resp-1{
+position: relative;
+top: 12px;
+}
+
+.image-resp-2{
+  position: relative;
+  top: 30px;
+  }
 
 
 /*--Previous Events--*/
@@ -607,6 +618,15 @@ a {
   .wrapper2{
     top: 0px;
   }
+  .image-resp-1{
+    position: relative;
+    top: 25px;
+    }
+    
+    .image-resp-2{
+      position: relative;
+      top: 45px;
+    }
 }
 
 @media only screen and (max-width: 993px) {
@@ -617,6 +637,23 @@ a {
   .contact-right-elements p {
     margin-left: 0px;
   }
+}
+
+
+@media only screen and (max-width: 769px){
+  .image-resp-1{
+    position: relative;
+    top: 40px;
+    }
+    
+    .image-resp-2{
+      position: relative;
+      top: 65px;
+    }
+    .image-resp-3{
+      position: relative;
+      top: 10px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -632,6 +669,48 @@ a {
   .socialmedia {
     justify-content: center;
   }
+  .prize-curve-1{
+    flex-direction: column;
+  }
+  .prize-curve-1 .text-prizes{
+    text-align: center;
+    padding: 0px;
+  }
+  .prize-curve-2{
+    flex-direction: column;
+    text-align: center;
+  }
+  .prize-curve-2 .text-prizes{
+    text-align: center;
+    padding: 0px;
+  }
+  .prize-curve-1 .logo-prizes{
+    margin-left: 0px;
+  }
+  
+  .prize-curve-2 .logo-prizes{
+    margin-right: 0px;
+  }
+  .prize-curve-1 .text-prizes{
+    margin: 20px 0px;
+  }
+  
+  .prize-curve-2 .text-prizes{
+    margin: 20px 0px;
+  }
+  .image-resp-1{
+    position: relative;
+    top: 0px;
+    }
+    
+    .image-resp-2{
+      position: relative;
+      top: 0px;
+    }
+    .image-resp-3{
+      position: relative;
+      top: 0px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
