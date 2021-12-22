@@ -502,6 +502,11 @@ a {
 
 /*---Contacts---*/
 
+.footerhacko4{
+  color: #efca9e;
+  font-family: "poppins-med";
+}
+
 .contactus {
   height: auto;
   background-attachment: fixed;

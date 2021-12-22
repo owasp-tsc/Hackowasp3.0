@@ -92,6 +92,12 @@ body {
   }
 }
 
+.hacko4heading{
+  color: white;
+  font-size: 100px;
+  font-family: "poppins-med";
+}
+
 .hackowasplogo {
   animation: glow 2s infinite alternate linear;
   width: 90%;

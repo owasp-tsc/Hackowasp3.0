@@ -5,6 +5,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.timelinesoon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 /* ANIMATION */
 #timeline polyline:nth-child(1) {
   stroke-dasharray: 49;
